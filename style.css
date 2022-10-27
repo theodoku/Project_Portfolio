@@ -1,3 +1,25 @@
-.favourite {
-  color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+ /* || GENERAL STYLE */
+ html {
+  scroll-behavior: smooth;
+ }
+
+ /* || HEADER */
+ .header__container {
+  display:flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+ }
+ 
+ #left-logo {
+  float: left;
+  }
