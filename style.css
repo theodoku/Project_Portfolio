@@ -5,9 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ||VARIABLES */
+:root {
+  /* FONTS */
+  --FF: 'Poppins';
+  --FS: normal;
+
+  /* COLOR */
+  --H1-COLOR: #172B4D;
+  --GREETING-MESSAGE-COLOR:#344563;
+}
+
  /* || GENERAL STYLE */
  html {
   scroll-behavior: smooth;
+  color: var(--HTML-COLOR);
  }
 
  /* || HEADER */
@@ -15,11 +28,42 @@
   display:flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
  }
  
  #left-logo {
-  float: left;
+  font-size:30px;
+  margin: 30px;
   }
+
+  #right-hamburger menu {
+    margin:30px;
+  }
+
+ .headline__section {
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+ }
+
+ h1 {
+  font-family: var(--FF);
+  font-weight: 600px;
+  font-size: 45px;
+  line-height: 50px;
+  color: var(--H1-COLOR);
+ }
+ #greeting {
+  padding:10px;
+ }
+ .greeting_message {
+  font-family: var(--FF);
+  font-style: var(--FS);
+  font-weight:400px;
+  line-height:25px;
+  color: var(--GREETING-MESSAGE-COLOR);
+  font-weight: 400px;
+ }
