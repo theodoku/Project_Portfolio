@@ -41,8 +41,8 @@ body {
   align-items: center;
   height: 3rem;
   align-content: center;
-  margin-left:15px;
-  margin-right:15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .headline__section {
@@ -56,49 +56,49 @@ body {
 #connect {
   margin-left: 10px;
   padding-top: 2%;
-  color:#7F8CFF;
-  font-style:normal;
-  font-weight:500;
-  font-size:16px;
-  line-height:24px;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 #greeting {
-font-family: var(--FF);
-font-style: normal;
-font-weight:700;
-font-size:40px;
-line-height:52px;
-color:#172B4D;
-margin-left: 10px;
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-left: 10px;
 }
 
 #message {
-  font-family:var(--FF);
-  font-style:normal;
-  font-weight:400;
-  font-size:16px;
-  line-height:24px;
-  color:#344563;
-  margin-left:10px;
-  margin-top:6px;
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 10px;
+  margin-top: 6px;
 }
 
 .social {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
- ul {
+ul {
   list-style-type: none;
 }
 
 .ul {
-  Position: absolute;
-  left:6.4%;
-  right:88.27%;
-  top:77.81%;
-  bottom:18.88%;
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
 }
 
 .ul li {
@@ -106,8 +106,8 @@ margin-left: 10px;
 }
 
 .twitter,
-.Vector I,
-.Vector II,
+.Vector,
+.Vector i,
 .Medium,
 .github,
 .angellist {
