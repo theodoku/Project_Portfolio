@@ -1,3 +1,115 @@
-.favourite {
-  color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ||VARIABLES */
+:root {
+  /* FONTS */
+  --FF: 'Poppins';
+
+  /* COLOR */
+  --H1-COLOR: #290f09;
+  --GREETING-MESSAGE-COLOR: #54423d;
+
+  /* IMAGES */
+  --BODY-BG-IMAGE: url('images 1/header-shapes mobile.png');
+}
+
+/* || GENERAL STYLE */
+body {
+  font-family: var(--FF);
+  width: 100%;
+  background-image: var(--BODY-BG-IMAGE);
+}
+
+/* || HEADER */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  align-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.headline__section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 35%;
+  margin-left: 10px;
+}
+
+#connect {
+  margin-left: 10px;
+  padding-top: 2%;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#greeting {
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-left: 10px;
+}
+
+#message {
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ul {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+}
+
+.ul li {
+  margin: 0 35px;
+}
+
+.twitter,
+.Vector i,
+.VectorII,
+.Medium,
+.github,
+.angellist {
+  margin: 0 13px;
 }
