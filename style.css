@@ -13,7 +13,6 @@
   --FF: 'Poppins', sans-serif;
   --FONT-BOLD: 700;
 
-
   /* COLOR */
   --H1-COLOR: #290f09;
   --GREETING-MESSAGE-COLOR: #54423d;
@@ -66,7 +65,6 @@ h1 {
   line-height: 50px;
   color: var(--H1-COLOR);
 }
-
 
 .greeting_message {
   font-family: var(--FF);
