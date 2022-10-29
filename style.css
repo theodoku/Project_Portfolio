@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* || RESET */
 * {
   margin: 0;
@@ -8,80 +9,78 @@
 
 /* ||VARIABLES */
 :root {
-  
-
   /* FONTS */
   --FF: 'Poppins', sans-serif;
-  --FONT-BOLD:700;
+  --FONT-BOLD: 700;
 
 
   /* COLOR */
-  --H1-COLOR: #290F09;
-  --GREETING-MESSAGE-COLOR:#54423D;
+  --H1-COLOR: #290f09;
+  --GREETING-MESSAGE-COLOR: #54423d;
 
   /* IMAGES */
-  --BODY-BG-IMAGE:url('images 1/header-shapes mobile.png');
+  --BODY-BG-IMAGE: url('images 1/header-shapes mobile.png');
 }
 
- /* || GENERAL STYLE */
- body {
-  font-family:var(--FF);
-  width:100%;
+/* || GENERAL STYLE */
+body {
+  font-family: var(--FF);
+  width: 100%;
   background-image: var(--BODY-BG-IMAGE);
- }
+}
 
- /* || HEADER */
- .header {
-  width:100%;
+/* || HEADER */
+.header {
+  width: 100%;
   position: fixed;
-  top:0;
-  left:0;
- }
+  top: 0;
+  left: 0;
+}
 
- .nav_logo {
+.nav_logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 3rem;
-  align-content:center;
+  align-content: center;
   padding-left: 2%;
- }
+}
 
- #left-logo {
-  font-size:20px;
-  }
+#left-logo {
+  font-size: 20px;
+}
 
-
- .headline__section {
-  display:flex;
+.headline__section {
+  display: flex;
   flex-direction: column;
   align-content: center;
   padding-top: 50%;
   margin-left: 10px;
- }
- h1 {
+}
+
+h1 {
   align-items: center;
   font-family: var(--FF);
   font-weight: 600px;
   font-size: 45px;
   line-height: 50px;
   color: var(--H1-COLOR);
- }
- 
+}
 
- .greeting_message {
+
+.greeting_message {
   font-family: var(--FF);
   font-style: var(--FS);
-  font-weight:400px;
-  line-height:20px;
-  color: var(--GREETING-MESSAGE-COLOR);
   font-weight: 400px;
- }
- 
- #connect {
-  padding-top:10%;
-  color:blue;
- }
- #message {
+  line-height: 20px;
+  color: var(--GREETING-MESSAGE-COLOR);
+}
+
+#connect {
+  padding-top: 10%;
+  color: blue;
+}
+
+#message {
   text-shadow: 2px;
- }
+}
