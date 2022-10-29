@@ -10,8 +10,7 @@
 /* ||VARIABLES */
 :root {
   /* FONTS */
-  --FF: 'Poppins', sans-serif;
-  --FONT-BOLD: 700;
+  --FF: 'Poppins';
 
   /* COLOR */
   --H1-COLOR: #290f09;
@@ -42,43 +41,75 @@ body {
   align-items: center;
   height: 3rem;
   align-content: center;
-  padding-left: 2%;
-}
-
-#left-logo {
-  font-size: 20px;
+  margin-left:15px;
+  margin-right:15px;
 }
 
 .headline__section {
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding-top: 50%;
+  padding-top: 35%;
   margin-left: 10px;
 }
 
-h1 {
-  align-items: center;
-  font-family: var(--FF);
-  font-weight: 600px;
-  font-size: 45px;
-  line-height: 50px;
-  color: var(--H1-COLOR);
-}
-
-.greeting_message {
-  font-family: var(--FF);
-  font-style: var(--FS);
-  font-weight: 400px;
-  line-height: 20px;
-  color: var(--GREETING-MESSAGE-COLOR);
-}
-
 #connect {
-  padding-top: 10%;
-  color: blue;
+  margin-left: 10px;
+  padding-top: 2%;
+  color:#7F8CFF;
+  font-style:normal;
+  font-weight:500;
+  font-size:16px;
+  line-height:24px;
+}
+
+#greeting {
+font-family: var(--FF);
+font-style: normal;
+font-weight:700;
+font-size:40px;
+line-height:52px;
+color:#172B4D;
+margin-left: 10px;
 }
 
 #message {
-  text-shadow: 2px;
+  font-family:var(--FF);
+  font-style:normal;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  color:#344563;
+  margin-left:10px;
+  margin-top:6px;
+}
+
+.social {
+  display:flex;
+  flex-direction: row;
+}
+
+ ul {
+  list-style-type: none;
+}
+
+.ul {
+  Position: absolute;
+  left:6.4%;
+  right:88.27%;
+  top:77.81%;
+  bottom:18.88%;
+}
+
+.ul li {
+  margin: 0 35px;
+}
+
+.twitter,
+.Vector I,
+.Vector II,
+.Medium,
+.github,
+.angellist {
+  margin: 0 13px;
 }
