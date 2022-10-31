@@ -15,12 +15,16 @@
   /* COLOR */
   --H1-COLOR: #290f09;
   --GREETING-MESSAGE-COLOR: #54423d;
-
+  --PROJECT-TITLE-COLOR:#172B4D;
   /* IMAGES */
   --BODY-BG-IMAGE: url('images 1/header-shapes mobile.png');
 }
 
 /* || GENERAL STYLE */
+html {
+   scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--FF);
   width: 100%;
@@ -113,3 +117,13 @@ ul {
 .angellist {
   margin: 0 13px;
 }
+
+.project_title{
+font-family: var(--FF);
+font-style: normal;
+font-weight:700;
+font-size: 32px;
+line-height: 44px;
+color:var(--PROJECT-TITLE-COLOR);
+}
+
