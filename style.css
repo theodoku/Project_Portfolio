@@ -21,6 +21,10 @@
   --JOB-TITLE-COLOR:#7A869A;
   --SIGN-UP-COLOR:#344563;
   --BACKGROUND-COLOR:#E5E5E5;
+  --BACKGROUND-COLOR1:#FFFFFF;
+  --TEXT-COLOR:#172B4D;
+  --INTRO-MESSAGE-COLOR:#344563;
+  --COONECT1-COLOR:#7F8CFF;
   
   /* IMAGES */
   --BODY-BG-IMAGE: url('images 1/header-shapes mobile.png');
@@ -37,6 +41,7 @@ body {
   width: 100%;
   background-image: var(--BODY-BG-IMAGE);
   background-repeat: no-repeat;
+  background-color: var(--BACKGROUND-COLOR);
 }
 
 /* || HEADER */
@@ -124,10 +129,6 @@ ul {
 .github,
 .angellist {
   margin: 0 13px;
-}
-
-.works_section {
-  background-color: var(--BACKGROUND-COLOR);
 }
 
 .Card_Works {
@@ -352,5 +353,69 @@ margin-top:12px;
   border: 1px solid #396DF2;
 }
 
+.biography{
+  margin-left:30px;
+}
 
- 
+.About_Myself {
+  margin-top: 100px;
+  width:400px;
+  height:1263px;
+  left:375px;
+  top:4769px;
+  background:var(--BACKGROUND-COLOR1);
+}
+
+#text {
+  font-family: var(--FF);
+  font-style:normal;
+  font-weight:700;
+  font-size: 40px;
+  line-height:52px;
+  display:flex;
+  align-items:center;
+  color:var(--TEXT-COLOR);
+  width:327px;
+  height:101px;
+}
+
+#intro_message {
+  font-family: var(--FF);
+  font-style:normal;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  width:327px;
+  height:144px;
+  color:var(--INTRO-MESSAGE-COLOR);
+}
+
+#connect1{
+  font-family: var(--FF);
+  font-style:normal;
+  font-weight:500;
+  font-size:16px;
+  line-height:24px;
+  width:117px;
+  height:24px;
+  color:var(--COONECT1-COLOR);
+  margin-top:30px;
+}
+
+#resume {
+  font-family:var(--FF);
+  font-style:normal;
+  font-weight:500;
+  font-size:17px;
+  line-height:24px;
+  display: flex;
+  align-items:center;
+  text-align:center;
+  letter-spacing:0.03em;
+  width:155px;
+  height:50px;
+  color:#396DF2;
+  border-radius:8px;
+  border: 1px solid #396DF2;
+  padding-left:5px;
+}
