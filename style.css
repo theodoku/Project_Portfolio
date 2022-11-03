@@ -109,10 +109,6 @@ body {
 }
 
 .ul {
-  list-style-type: none;
-}
-
-.ul {
   position: absolute;
   left: 6.4%;
   right: 88.27%;
@@ -362,28 +358,39 @@ body {
   border: 1px solid #396df2;
 }
 
-#view1:hover,
-#view2:hover,
-#view3:hover,
-#view4:hover,
-#resume:hover {
+#view1:hover {
   color: papayawhip;
 }
-
-#view1:active,
-#view2:active,
-#view3:active,
-#view4:active,
-#resume:active {
+#view1:active {
   color: navy;
 }
 
-#view1:focus,
-#view2:focus,
-#view3:focus,
-#view4:focus,
-#resume:focus {
-  color: #7f8cff;
+#view2:hover {
+  color: papayawhip;
+}
+#view2:active {
+  color: navy;
+}
+
+#view3:hover {
+  color: papayawhip;
+}
+#view3:active {
+  color: navy;
+}
+
+#view4:hover {
+  color: papayawhip;
+}
+#view4:active {
+  color: navy;
+}
+
+#resume:hover {
+  color: papayawhip;
+}
+#resume:active {
+  color: navy;
 }
 
 .biography {
