@@ -108,7 +108,7 @@ body {
   flex-direction: row;
 }
 
-ul {
+.ul {
   list-style-type: none;
 }
 
@@ -131,6 +131,10 @@ ul {
 .github,
 .angellist {
   margin: 0 13px;
+}
+
+.works_section {
+  display:grid;
 }
 
 .Card_Works {
@@ -228,7 +232,7 @@ ul {
   justify-content: space-between;
 }
 
-#title_name {
+.title_name {
   font-family: var(--FF);
   font-style: normal;
   font-weight: 600;
@@ -237,7 +241,7 @@ ul {
   color: var(--TITLE-COLOR);
 }
 
-#job_title {
+.job_title {
   font-family: var(--FF);
   font-style: normal;
   font-weight: 600;
@@ -246,7 +250,7 @@ ul {
   color: var(--JOB-TITLE-COLOR);
 }
 
-#year {
+.year {
   font-family: var(--FF);
   font-style: normal;
   font-weight: 600;
@@ -255,8 +259,13 @@ ul {
   color: var(--JOB-TITLE-COLOR);
 }
 
-#ul_description li {
+.ul_description li {
   display: inline;
+}
+
+.social li, 
+.social1 li{
+  list-style-type: none;
 }
 
 #sign-up1,
@@ -353,6 +362,30 @@ ul {
   border: 1px solid #396df2;
 }
 
+#view1:hover,
+#view2:hover,
+#view3:hover,
+#view4:hover,
+#resume:hover{
+  color:papayawhip;
+}
+
+#view1:active, 
+#view2:active,
+#view3:active,
+#view4:active,
+#resume:active {
+  color:navy;
+}
+
+#view1:focus,
+#view2:focus,
+#view3:focus,
+#view4:focus,
+#resume:focus{
+  color:#7f8cff;
+}
+
 .biography {
   margin-left: 20px;
   padding-top: 100px;
@@ -402,6 +435,16 @@ ul {
   height: 24px;
   color: var(--COONECT1-COLOR);
   margin-top: 30px;
+}
+
+#connect,
+#view1,
+#view2,
+#view3,
+#view4,
+#connect1,
+#resume {
+  text-decoration: none;
 }
 
 .social1 {
@@ -521,9 +564,9 @@ ul {
   margin-bottom: 20px;
 }
 
-#counter,
-#job_title,
-#year {
+.counter,
+.job_title,
+.year {
   margin-left: 10px;
 }
 
