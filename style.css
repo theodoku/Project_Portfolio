@@ -134,7 +134,7 @@ body {
 }
 
 .works_section {
-  display:grid;
+  display: grid;
 }
 
 .Card_Works {
@@ -263,8 +263,8 @@ body {
   display: inline;
 }
 
-.social li, 
-.social1 li{
+.social li,
+.social1 li {
   list-style-type: none;
 }
 
@@ -366,24 +366,24 @@ body {
 #view2:hover,
 #view3:hover,
 #view4:hover,
-#resume:hover{
-  color:papayawhip;
+#resume:hover {
+  color: papayawhip;
 }
 
-#view1:active, 
+#view1:active,
 #view2:active,
 #view3:active,
 #view4:active,
 #resume:active {
-  color:navy;
+  color: navy;
 }
 
 #view1:focus,
 #view2:focus,
 #view3:focus,
 #view4:focus,
-#resume:focus{
-  color:#7f8cff;
+#resume:focus {
+  color: #7f8cff;
 }
 
 .biography {
