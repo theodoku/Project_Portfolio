@@ -358,38 +358,43 @@ body {
   border: 1px solid #396df2;
 }
 
-#view1:hover {
+a#view1:hover {
   color: papayawhip;
 }
-#view1:active {
+
+a#view1:active {
   color: navy;
 }
 
-#view2:hover {
+a#view2:hover {
   color: papayawhip;
 }
-#view2:active {
+
+a#view2:active {
   color: navy;
 }
 
-#view3:hover {
+a#view3:hover {
   color: papayawhip;
 }
-#view3:active {
+
+a#view3:active {
   color: navy;
 }
 
-#view4:hover {
+a#view4:hover {
   color: papayawhip;
 }
-#view4:active {
+
+a#view4:active {
   color: navy;
 }
 
-#resume:hover {
+a#resume:hover {
   color: papayawhip;
 }
-#resume:active {
+
+a#resume:active {
   color: navy;
 }
 
