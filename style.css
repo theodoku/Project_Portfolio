@@ -32,10 +32,6 @@
 }
 
 /* || GENERAL STYLE */
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: var(--FF);
   width: 100%;
@@ -600,13 +596,16 @@ a#resume:active {
   top: 4580px;
   width: 375px;
   height: 800px;
+  background-image: url("images 1/contact-form-shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
   background-color: #6070ff;
   border-top-left-radius: 120px;
 }
 
 .footer_contact {
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 66px;
   display: flex;
   justify-content: center;
@@ -639,7 +638,7 @@ form {
 
 #text_footer {
   position: absolute;
-  top: 160px;
+  top: 190px;
   left: 24px;
   font-family: var(--FF);
   font-style: normal;
@@ -659,7 +658,7 @@ input {
   width: 300px;
   height: 40px;
   margin-left: 1px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 textarea {
@@ -669,7 +668,7 @@ textarea {
   width: 300px;
   height: 150px;
   margin-left: 1px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 button {
@@ -696,7 +695,7 @@ button {
   color: #396df2;
   border-radius: 8px;
   margin-left: 1px;
-  margin-top: 32px;
+  margin-top: 45px;
 }
 
 .contact-btn:hover {
@@ -709,8 +708,3 @@ button {
   color: #fff;
 }
 
-.footer_wrapper img {
-  width: 480px;
-  height: 715px;
-  left: 0;
-}
