@@ -406,10 +406,10 @@ a#resume:active {
 .About_Myself {
   margin-top: 100px;
   width: 400px;
-  height: 1500px;
+  height: 1100px;
   left: 375px;
   top: 4769px;
-  background: var(--BACKGROUND-COLOR1);
+  background-color:  var(--BACKGROUND-COLOR1);
   border-top-right-radius: 120px;
 }
 
@@ -592,4 +592,133 @@ a#resume:active {
   left: 0;
   right: 0;
   bottom: 0;
+}
+/* || FOOTER */
+
+.contact_form {
+  background-color:#fff;
+}
+
+.footer_wrapper {
+  position: absolute;
+  left:0;
+  top: 4578px;
+  width:400px;
+  height: 1000px;
+  background-color: #6070FF;
+  border-top-left-radius: 120px;
+}
+
+.footer_contact {
+  position: absolute;
+  top:70px;
+  left:66px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  font-family: var(--FF);
+  font-style:normal;
+  font-weight:700;
+  font-size:40px;
+  line-height:52px;
+  display: flex;
+  align-items:center;
+  text-align:center;
+  color:#FFF;
+  margin-top:100px;
+  margin-bottom: 12px;
+}
+
+form {
+  position:absolute;
+  top:330px;
+  left:24px;
+}
+
+form ul li {
+  list-style-type: none;
+}
+
+#text_footer {
+  position:absolute;
+  top:250px;
+  left:24px;
+  font-family:var(--FF);
+  font-style:normal;
+  font-weight:400;
+  font-size:20px;
+  line-height:28px;
+  text-align:center;
+  color:#EBEBFF;
+  margin-bottom:20px;
+}
+
+input {
+  background: #FFF;
+  border: 1px solid #CFD8DC;
+  border-radius:8px;
+  height:20px;
+  width:300px;
+  height:40px;
+  margin-left: 47px;
+  margin-top:20px;
+}
+
+textarea {
+  background: #FFF;
+  border: 1px solid #CFD8DC;
+  border-radius:8px;
+  height:20px;
+  width:300px;
+  height:150px;
+  margin-left: 47px;
+  margin-top:20px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.button {
+margin-top: 20px;
+}
+
+#touch {
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 155px;
+  height: 50px;
+  color: #396df2;
+  border-radius: 8px;
+  padding-left: 20px;
+  background: #fff;
+  margin-left:47px;
+  text-decoration: none;
+}
+
+a#touch:hover {
+  color: papayawhip;
+}
+
+a#touch:active {
+  color: navy;
+}
+.footer_wrapper img {
+  width: 480px;
+  height: 715px;
+  left: 0;
 }
