@@ -46,7 +46,7 @@ body {
 /* || HEADER */
 .header {
   position: absolute;
-  width:375px;
+  width: 375px;
   top: 0;
   left: 0;
 }
@@ -71,7 +71,7 @@ body {
   background-color: var(--BACKGROUND-COLOR1);
   padding-bottom: 25%;
   border-bottom-left-radius: 70px;
-  width:375px;
+  width: 375px;
 }
 
 #connect {
@@ -610,11 +610,11 @@ a#resume:active {
 
 .footer_contact {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 66px;
   display: flex;
   justify-content: center;
-  padding-left:10px;
+  padding-left: 10px;
 }
 
 .contact {
@@ -637,9 +637,9 @@ form {
   left: 24px;
 }
 
-form li {
+form .ul li {
   list-style-type: none;
-  padding-left:10px;
+  padding-left: 10px;
 }
 
 #text_footer {
@@ -654,14 +654,13 @@ form li {
   text-align: center;
   color: #ebebff;
   margin-bottom: 20px;
-  padding-left:10px;
+  padding-left: 10px;
 }
 
 input {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  height: 20px;
   width: 300px;
   height: 40px;
   margin-left: 1px;
@@ -669,14 +668,13 @@ input {
 }
 
 textarea {
-  background: #FFF;
-  border: 1px solid #CFD8DC;
-  border-radius:8px;
-  height:20px;
-  width:300px;
-  height:150px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 150px;
   margin-left: 1px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 button {
@@ -685,7 +683,7 @@ button {
   align-items: center;
   padding: 12px 16px;
   background: #fff;
-  border-color:#fff;
+  border-color: #fff;
 }
 
 .contact-btn {
@@ -702,18 +700,18 @@ button {
   height: 50px;
   color: #396df2;
   border-radius: 8px;
-  margin-left:1px;
-  margin-top:32px;
+  margin-left: 1px;
+  margin-top: 32px;
 }
 
 .contact-btn:hover {
-  background:#7a869a;
-  color:#fff;
+  background: #7a869a;
+  color: #fff;
 }
 
 .contact-btn:active {
-  background:#172b4d;
-  color:#fff;
+  background: #172b4d;
+  color: #fff;
 }
 
 .footer_wrapper img {
