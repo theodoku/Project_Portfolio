@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* || RESET */
 * {
@@ -10,7 +10,7 @@
 /* ||VARIABLES */
 :root {
   /* FONTS */
-  --FF: 'Poppins';
+  --FF: "Poppins";
 
   /* COLOR */
   --H1-COLOR: #290f09;
@@ -28,14 +28,10 @@
   --LANGUAGES-COLOR: #253858;
 
   /* IMAGES */
-  --BODY-BG-IMAGE: url('images 1/header-shapes mobile.png');
+  --BODY-BG-IMAGE: url("images 1/header-shapes mobile.png");
 }
 
 /* || GENERAL STYLE */
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: var(--FF);
   width: 100%;
@@ -45,8 +41,8 @@ body {
 
 /* || HEADER */
 .header {
-  width: 100%;
-  position: fixed;
+  position: absolute;
+  width: 375px;
   top: 0;
   left: 0;
 }
@@ -67,9 +63,11 @@ body {
   align-content: center;
   padding-top: 35%;
   background-image: var(--BODY-BG-IMAGE);
+  background-repeat: no-repeat;
   background-color: var(--BACKGROUND-COLOR1);
   padding-bottom: 25%;
   border-bottom-left-radius: 70px;
+  width: 375px;
 }
 
 #connect {
@@ -131,10 +129,6 @@ body {
 
 .works_section {
   display: grid;
-}
-
-.Card_Works {
-  margin-top: 10%;
 }
 
 .Portfolio-pic {
@@ -405,11 +399,11 @@ a#resume:active {
 
 .About_Myself {
   margin-top: 100px;
-  width: 400px;
-  height: 1500px;
+  width: 375px;
+  height: 1240px;
   left: 375px;
   top: 4769px;
-  background: var(--BACKGROUND-COLOR1);
+  background-color: var(--BACKGROUND-COLOR1);
   border-top-right-radius: 120px;
 }
 
@@ -584,7 +578,7 @@ a#resume:active {
 
 .Text_frame::after,
 .Text::after {
-  content: '';
+  content: "";
   height: 1px;
   width: 300px;
   background: #dfe1e6;
@@ -592,4 +586,124 @@ a#resume:active {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+/* || FOOTER */
+
+.footer_wrapper {
+  position: absolute;
+  left: 0;
+  top: 4580px;
+  width: 375px;
+  height: 800px;
+  background-image: url("images 1/contact-form-shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6070ff;
+  border-top-left-radius: 120px;
+}
+
+.footer_contact {
+  position: absolute;
+  top: 30px;
+  left: 66px;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.contact {
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 12px;
+}
+
+form {
+  position: absolute;
+  top: 330px;
+  left: 24px;
+}
+
+.list {
+  list-style: none;
+}
+
+#text_footer {
+  position: absolute;
+  top: 190px;
+  left: 24px;
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 40px;
+  margin-left: 1px;
+  margin-top: 30px;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 150px;
+  margin-left: 1px;
+  margin-top: 30px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  background: #fff;
+  border-color: #fff;
+}
+
+.contact-btn {
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 150px;
+  height: 50px;
+  color: #396df2;
+  border-radius: 8px;
+  margin-left: 1px;
+  margin-top: 45px;
+}
+
+.contact-btn:hover {
+  background: #7a869a;
+  color: #fff;
+}
+
+.contact-btn:active {
+  background: #172b4d;
+  color: #fff;
 }
