@@ -662,3 +662,57 @@ input {
   margin-left: 1px;
   margin-top: 20px;
 }
+
+textarea {
+  background: #FFF;
+  border: 1px solid #CFD8DC;
+  border-radius:8px;
+  height:20px;
+  width:300px;
+  height:150px;
+  margin-left: 1px;
+  margin-top:20px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  background: #fff;
+  border-color:#fff;
+}
+
+.contact-btn {
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 150px;
+  height: 50px;
+  color: #396df2;
+  border-radius: 8px;
+  margin-left:1px;
+  margin-top:32px;
+}
+
+.contact-btn:hover {
+  background:#7a869a;
+  color:#fff;
+}
+
+.contact-btn:active {
+  background:#172b4d;
+  color:#fff;
+}
+
+.footer_wrapper img {
+  width: 480px;
+  height: 715px;
+  left: 0;
+}
