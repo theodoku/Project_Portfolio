@@ -637,9 +637,8 @@ form {
   left: 24px;
 }
 
-form .ul li {
-  list-style-type: none;
-  padding-left: 10px;
+.list {
+  list-style: none;
 }
 
 #text_footer {
@@ -718,8 +717,4 @@ button {
   width: 480px;
   height: 715px;
   left: 0;
-}
-
-ul li {
-  list-style: none;
 }
