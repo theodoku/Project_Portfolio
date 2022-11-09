@@ -45,8 +45,8 @@ body {
 
 /* || HEADER */
 .header {
-  width: 100%;
-  position: fixed;
+  position: absolute;
+  width:375px;
   top: 0;
   left: 0;
 }
@@ -67,9 +67,11 @@ body {
   align-content: center;
   padding-top: 35%;
   background-image: var(--BODY-BG-IMAGE);
+  background-repeat: no-repeat;
   background-color: var(--BACKGROUND-COLOR1);
   padding-bottom: 25%;
   border-bottom-left-radius: 70px;
+  width:375px;
 }
 
 #connect {
@@ -599,7 +601,7 @@ a#resume:active {
 .footer_wrapper {
   position: absolute;
   left: 0;
-  top: 4578px;
+  top: 4990px;
   width: 400px;
   height: 1000px;
   background-color: #6070ff;
@@ -612,6 +614,7 @@ a#resume:active {
   left: 66px;
   display: flex;
   justify-content: center;
+  padding-left:10px;
 }
 
 .contact {
@@ -634,8 +637,9 @@ form {
   left: 24px;
 }
 
-form ul li {
+form li {
   list-style-type: none;
+  padding-left:10px;
 }
 
 #text_footer {
@@ -650,6 +654,7 @@ form ul li {
   text-align: center;
   color: #ebebff;
   margin-bottom: 20px;
+  padding-left:10px;
 }
 
 input {
