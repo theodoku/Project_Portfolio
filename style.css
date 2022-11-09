@@ -135,10 +135,6 @@ body {
   display: grid;
 }
 
-.Card_Works {
-  margin-top: 10%;
-}
-
 .Portfolio-pic {
   width: 295px;
   display: flex;
@@ -407,8 +403,8 @@ a#resume:active {
 
 .About_Myself {
   margin-top: 100px;
-  width: 400px;
-  height: 1300px;
+  width: 375px;
+  height: 1240px;
   left: 375px;
   top: 4769px;
   background-color: var(--BACKGROUND-COLOR1);
@@ -601,9 +597,9 @@ a#resume:active {
 .footer_wrapper {
   position: absolute;
   left: 0;
-  top: 5300px;
-  width: 400px;
-  height: 1000px;
+  top: 4580px;
+  width: 375px;
+  height: 800px;
   background-color: #6070ff;
   border-top-left-radius: 120px;
 }
