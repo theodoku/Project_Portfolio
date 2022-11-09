@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* || RESET */
 * {
@@ -10,7 +10,7 @@
 /* ||VARIABLES */
 :root {
   /* FONTS */
-  --FF: 'Poppins';
+  --FF: "Poppins";
 
   /* COLOR */
   --H1-COLOR: #290f09;
@@ -28,7 +28,7 @@
   --LANGUAGES-COLOR: #253858;
 
   /* IMAGES */
-  --BODY-BG-IMAGE: url('images 1/header-shapes mobile.png');
+  --BODY-BG-IMAGE: url("images 1/header-shapes mobile.png");
 }
 
 /* || GENERAL STYLE */
@@ -409,7 +409,7 @@ a#resume:active {
   height: 1300px;
   left: 375px;
   top: 4769px;
-  background-color:  var(--BACKGROUND-COLOR1);
+  background-color: var(--BACKGROUND-COLOR1);
   border-top-right-radius: 120px;
 }
 
@@ -584,7 +584,7 @@ a#resume:active {
 
 .Text_frame::after,
 .Text::after {
-  content: '';
+  content: "";
   height: 1px;
   width: 300px;
   background: #dfe1e6;
@@ -593,4 +593,72 @@ a#resume:active {
   right: 0;
   bottom: 0;
 }
+
 /* || FOOTER */
+
+.footer_wrapper {
+  position: absolute;
+  left: 0;
+  top: 4578px;
+  width: 400px;
+  height: 1000px;
+  background-color: #6070ff;
+  border-top-left-radius: 120px;
+}
+
+.footer_contact {
+  position: absolute;
+  top: 0px;
+  left: 66px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 12px;
+}
+
+form {
+  position: absolute;
+  top: 330px;
+  left: 24px;
+}
+
+form ul li {
+  list-style-type: none;
+}
+
+#text_footer {
+  position: absolute;
+  top: 160px;
+  left: 24px;
+  font-family: var(--FF);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 20px;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 20px;
+  width: 300px;
+  height: 40px;
+  margin-left: 1px;
+  margin-top: 20px;
+}
