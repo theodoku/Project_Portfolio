@@ -601,7 +601,7 @@ a#resume:active {
 .footer_wrapper {
   position: absolute;
   left: 0;
-  top: 4990px;
+  top: 5300px;
   width: 400px;
   height: 1000px;
   background-color: #6070ff;
@@ -718,4 +718,8 @@ button {
   width: 480px;
   height: 715px;
   left: 0;
+}
+
+ul li {
+  list-style: none;
 }
