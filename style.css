@@ -782,4 +782,38 @@ button {
   .greeting {
     margin-left: 20%;
   }
+
+  .container1 {
+    flex-direction:row;
+    gap:60px;
+    width:80%;
+    align-items:center;
+    align-content: center;
+  }
+
+  .mobile_container1 {
+    display: none;
+  }
+
+  .Portfolio-pic {
+    width: 495px;
+    height: 400px;
+    padding-left: 40px;
+  }
+  #project_name1 {
+    margin-top:-120px;
+    margin-bottom: 10px;
+  }
+
+  .project-title1 {
+    margin-bottom: 25px;
+  }
+
+  #sign-up1 {
+    margin-bottom: 25px;
+  }
+
+  .View_project1 {
+    margin-bottom:5px;
+  }
 }
