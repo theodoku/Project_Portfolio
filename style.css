@@ -791,7 +791,19 @@ button {
     align-content: center;
   }
 
+  .container2 {
+    flex-direction:row-reverse;
+    gap:60px;
+    width:80%;
+    align-items:center;
+    align-content: center
+  }
+
   .mobile_container1 {
+    display: none;
+  }
+
+  .mobile_container2 {
     display: none;
   }
 
@@ -814,6 +826,23 @@ button {
   }
 
   .View_project1 {
+    margin-bottom:5px;
+  }
+
+  #project_name2 {
+    margin-top:-120px;
+    margin-bottom: 10px;
+  }
+
+  .project-title2 {
+    margin-bottom: 25px;
+  }
+
+  #sign-up2 {
+    margin-bottom:25px;
+  }
+
+  .View_project2 {
     margin-bottom:5px;
   }
 }
