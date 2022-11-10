@@ -26,6 +26,7 @@
   --INTRO-MESSAGE-COLOR: #344563;
   --COONECT1-COLOR: #7f8cff;
   --LANGUAGES-COLOR: #253858;
+  --NAV-LINK-COLOR:#344563;
 
   /* IMAGES */
   --BODY-BG-IMAGE: url("images 1/header-shapes mobile.png");
@@ -37,6 +38,10 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-color: var(--BACKGROUND-COLOR);
+}
+
+ a {
+  text-decoration: none;
 }
 
 /* || HEADER */
@@ -51,7 +56,7 @@ body {
   color:#6070FF;
 }
 
-.menu_btn {
+.header_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,6 +64,26 @@ body {
   align-content: center;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.nav_wrapper {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+  gap: 20%;
+  text-align: center;
+}
+
+.nav_item {
+  padding: 10px 10px;
+}
+
+.nav_link {
+  font-family: var(--FF);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color:var(--NAV-LINK-COLOR);
 }
 
 .headline__section {
@@ -92,6 +117,10 @@ body {
   line-height: 52px;
   color: #172b4d;
   margin-left: 10px;
+}
+
+.greeting_desk {
+  margin-bottom: 20px;
 }
 
 #message {
@@ -710,4 +739,47 @@ button {
 .contact-btn:active {
   background: #172b4d;
   color: #fff;
+}
+
+/* || DESKTOP VIEW */
+@media (min-width: 769px) {
+  .header {
+   width: 100%;
+   padding: 15px 300px;
+  }
+
+
+  ul.nav_wrapper {
+    float: right;
+    margin-top: -45px;
+  }
+
+  .menu_btn {
+    display:none;
+  }
+
+  .headline__section {
+    background-image: url("images 1/desktop_bg.png");
+    background-size: 100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50vh;
+  }
+
+  .mobile_section {
+    display: none;
+  }
+
+  .Hello_desk {
+    margin-left:20%
+  }
+
+  .greeting_desk {
+    margin-left:20%;
+  }
+
+  .greeting {
+    margin-left: 20%;
+  }
 }
