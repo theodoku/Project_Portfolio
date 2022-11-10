@@ -47,7 +47,11 @@ body {
   left: 0;
 }
 
-.nav_logo {
+.left_logo {
+  color:#6070FF;
+}
+
+.menu_btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
