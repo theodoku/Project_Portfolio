@@ -164,11 +164,11 @@ body {
   display: grid;
 }
 
-.Portfolio-pic {
+/*.Portfolio-pic {
   width: 295px;
   display: flex;
   flex-direction: column;
-}
+}*/
 
 .container1 {
   display: flex;
@@ -183,7 +183,7 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-left: 30px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .container2 {
@@ -425,12 +425,12 @@ a#resume:active {
   color: navy;
 }
 
-.biography {
+.Myself {
   margin-left: 20px;
   padding-top: 100px;
 }
 
-.About_Myself {
+.About_Myself{
   margin-top: 100px;
   width: 375px;
   height: 1240px;
@@ -453,7 +453,7 @@ a#resume:active {
   height: 101px;
 }
 
-#text_desk {
+/*#text_desk {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -461,7 +461,7 @@ a#resume:active {
   width: 447px;
   height: 114px;
   margin-left:25px;
-}
+}*/
 
 #intro_message {
   font-family: var(--FF);
@@ -472,6 +472,7 @@ a#resume:active {
   width: 327px;
   height: 144px;
   color: var(--INTRO-MESSAGE-COLOR);
+  margin-left:20px;
 }
 
 #connect1 {
@@ -484,6 +485,7 @@ a#resume:active {
   height: 24px;
   color: var(--COONECT1-COLOR);
   margin-top: 30px;
+  margin-left:20px;
 }
 
 #connect,
@@ -504,6 +506,7 @@ a#resume:active {
 
 .view_resume {
   margin-top: 20px;
+  margin-left:20px;
 }
 
 #resume {
@@ -584,11 +587,9 @@ a#resume:active {
   position: relative;
 }
 
-#t
-
-.forward1 {
+.forward1{
   position: absolute;
-  left: 70%;
+  left: 76%;
   right: 33.33%;
   top: 25%;
   bottom: 25%;
@@ -782,8 +783,10 @@ flex-direction: column;
   gap:20px;
 }
 
-/* || DESKTOP VIEW */
-@media (min-width: 769px) {
+/*----MEDIA QUERIES SECTION----*/
+
+/* || DESKTOP VERSION */
+ @media (min-width: 769px) {
   .header {
    width: 100%;
    padding: 15px 300px;
@@ -884,11 +887,6 @@ flex-direction: column;
     display: none;
   }
 
-  .Portfolio-pic {
-    width: 495px;
-    height: 400px;
-    padding-left: 40px;
-  }
   #project_name1 {
     margin-top:-120px;
     margin-bottom: 10px;
@@ -1042,7 +1040,7 @@ flex-direction: column;
     margin-left: 150%;
   }
 
-  .forward1 {
+  .forward1_desk {
   position: absolute;
   left: 162%;
   right: 33.33%;
