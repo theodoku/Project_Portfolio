@@ -453,6 +453,16 @@ a#resume:active {
   height: 101px;
 }
 
+#text_desk {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091E42;
+  width: 447px;
+  height: 114px;
+  margin-left:25px;
+}
+
 #intro_message {
   font-family: var(--FF);
   font-style: normal;
@@ -573,6 +583,8 @@ a#resume:active {
   margin-left: 20px;
   position: relative;
 }
+
+#t
 
 .forward1 {
   position: absolute;
@@ -868,6 +880,10 @@ flex-direction: column;
     display: none;
   }
   
+  .text {
+    display: none;
+  }
+
   .Portfolio-pic {
     width: 495px;
     height: 400px;
@@ -943,6 +959,7 @@ flex-direction: column;
 
   .About{
     padding: 100px 0 0 0;
+    margin-top: 100px;
   }
 
   .Desktop_Container {
@@ -955,10 +972,124 @@ flex-direction: column;
 
   .right {
     position: absolute;
-    right:0;
+    right:25%;
   }
   .footer_wrapper {
     width: 100%;
     flex-direction: row;
+    align-content: center;
+    align-self: center;
+    top:4500px;
   }
+
+  .contact {
+    width:801px;
+    height:56px;
+    margin-left:45%;
+  }
+
+  #text_footer {
+    width:569px;
+    height:102px;
+  }
+
+  .text_desktop {
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+    justify-content: flex-start;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  #text_footer_desk {
+    position: absolute;
+    top: 190px;
+    left: 24px;
+    font-family: var(--FF);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-left:20%;
+  }
+
+  #intro_message {
+    margin-left:25px;
+    width:447;
+    height:102px;
+  }
+
+  #connect1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+  }
+
+  #social1 {
+    margin-left: 40px;
+  }
+
+  #resume {
+    margin-left: 25px;
+  }
+
+  .forward {
+    margin-left: 150%;
+  }
+
+  .forward1 {
+  position: absolute;
+  left: 162%;
+  right: 33.33%;
+  top: 25%;
+  bottom: 25%;
+ }
+  
+ .down_arrow {
+ position: absolute;
+ left: 160%;
+ }
+
+.Text_frame::after,
+.Text::after {
+  content: "";
+  height: 1px;
+  width: 700px;
+  background: #dfe1e6;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ }
+
+ input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  width: 447px;
+  height: 48px;
+  margin-left: 70%;
+  margin-top: 30px;
+ }
+
+ textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  width: 447px;
+  height: 170px;
+  margin-left: 70%;
+  margin-top: 30px;
+ }
+
+ .contact-btn {
+  margin-left:70%;
+ }
 }
+
+
