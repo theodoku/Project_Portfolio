@@ -556,12 +556,6 @@ a#resume:active {
   margin-left: 20px;
 }
 
-.imag_js,
-.imag_html,
-.imag_css {
-  margin-left: 10px;
-}
-
 .Text_frame {
   display: flex;
   align-items: center;
@@ -741,6 +735,41 @@ button {
   color: #fff;
 }
 
+.About {
+  min-height: 100vh;
+  background-color: #fff;
+  border-top-right-radius: 100px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.javascript_framedesk,
+.html_framedesk,
+.css_framedesk {
+width:122px;
+height:120px;
+border-radius: 8px;
+background: #F7F7F9;
+display: flex;
+padding: 12px 9px;
+align-items: center;
+gap: 20px;
+margin-bottom: 12px;
+flex-direction: column;
+}
+
+.framedesk {
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
 /* || DESKTOP VIEW */
 @media (min-width: 769px) {
   .header {
@@ -835,6 +864,10 @@ button {
     display:none;
   }
 
+  .About_Myself_Mobile {
+    display: none;
+  }
+  
   .Portfolio-pic {
     width: 495px;
     height: 400px;
@@ -906,5 +939,26 @@ button {
 
   .View_project4 {
     margin-bottom:5px;
+  }
+
+  .About{
+    padding: 100px 0 0 0;
+  }
+
+  .Desktop_Container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80px;
+  }
+
+  .right {
+    position: absolute;
+    right:0;
+  }
+  .footer_wrapper {
+    width: 100%;
+    flex-direction: row;
   }
 }
