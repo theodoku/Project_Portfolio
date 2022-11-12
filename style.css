@@ -767,7 +767,6 @@ button {
     margin-top: -45px;
   }
 
-
   .menu_btn {
     display: none;
   }
@@ -777,22 +776,22 @@ button {
     background-size: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-position:center;
-    min-height:50vh;
-    padding:22%;
+    background-position: center;
+    min-height: 50vh;
+    padding: 22%;
   }
 
   .Hello {
-    margin-left:-10%;
+    margin-left: -10%;
   }
 
   .greeting_message {
-    margin-left:-10%;
+    margin-left: -10%;
     margin-bottom: 1%;
   }
 
   .greeting {
-    margin-left:-10%;
+    margin-left: -10%;
   }
 
   .works_section {
@@ -818,7 +817,7 @@ button {
     height: 500px;
     margin-top: 8px;
     margin-left: 3px;
-    float:left;
+    float: left;
   }
 
   .Portfolio-pic2,
@@ -856,14 +855,14 @@ button {
 
   #project_name1,
   #project_name3 {
-    margin-left:58%;
-    margin-top:50%
+    margin-left: 58%;
+    margin-top: 50%;
   }
 
   .project-title1,
   .project-title3 {
-    margin-top:2%;
-    margin-left:58%;
+    margin-top: 2%;
+    margin-left: 58%;
   }
 
   #sign-up1,
@@ -878,7 +877,7 @@ button {
   }
 
   #project_name2 {
-    margin-left:-3%;
+    margin-left: -3%;
     margin-top: 7%;
   }
 
@@ -944,9 +943,10 @@ button {
     align-self: center;
     top: 4500px;
   }
-.footer_contact {
-  margin-top:1%;
-}
+
+  .footer_contact {
+    margin-top: 1%;
+  }
 
   .contact {
     width: 801px;
@@ -957,8 +957,8 @@ button {
   #text_footer {
     width: 569px;
     height: 102px;
-    margin-left:30%;
-    margin-top:2%;
+    margin-left: 30%;
+    margin-top: 2%;
   }
 
   #intro_message {
@@ -1038,7 +1038,7 @@ button {
     width: 447px;
     height: 48px;
     margin-left: 110%;
-    margin-top:25px;
+    margin-top: 25px;
   }
 
   textarea {
