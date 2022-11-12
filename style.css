@@ -989,14 +989,6 @@ button {
     margin-top: 100px;
   }
 
- /* .Desktop_Container {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-    width: 80px;
-  }*/
-
   .right {
     position: absolute;
     right:30%;
@@ -1014,27 +1006,14 @@ button {
     width:801px;
     height:56px;
     margin-left:45%;
+    margin-bottom:20px;
   }
 
   #text_footer {
     width:569px;
     height:102px;
-  }
-
-  #text_footer {
-    position: absolute;
-    top: 190px;
-    left: 24px;
-    font-family: var(--FF);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #ebebff;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    margin-left:20%;
+    left:270px;
+    top:230px;
   }
 
   #intro_message {
@@ -1127,8 +1106,13 @@ display:inline-block;
  }
 
  .contact-btn {
-  margin-left:70%;
+  margin-left:95%;
  }
 }
 
+@media (min-width: 375px) {
+  .navigation {
+    display:none;
+  }
+}
 
