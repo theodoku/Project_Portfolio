@@ -1043,7 +1043,7 @@ button {
 
   input:hover,
   input:focus {
-    transform: translateX(10%)
+    transform: translateX(10%);
   }
 
   textarea {
@@ -1068,72 +1068,88 @@ button {
 
 .Portfolio-pic1:hover,
 .Portfolio-pic1:focus {
-  transform:scale(50%,50%);
+  transform: scale(50%, 50%);
   transition: all ease 0.3s;
 }
+
 .Portfolio-pic2:hover,
 .Portfolio-pic2:focus {
-  transform:scale(50%,50%);
+  transform: scale(50%, 50%);
   transition: all ease 0.3s;
 }
+
 .Portfolio-pic3:hover,
 .Portfolio-pic3:focus {
-  transform:scale(50%,50%);
+  transform: scale(50%, 50%);
   transition: all ease 0.3s;
 }
+
 .Portfolio-pic4:hover,
 .Portfolio-pic4:focus {
-  transform:scale(50%,50%);
+  transform: scale(50%, 50%);
   transition: all ease 0.3s;
 }
 
 #view1:hover,
 #view1:focus {
   background-color: orange;
-  transition-property: background-color;
+
+  /* transition-property: background-color; */
   transition: all 2s ease 0.5s;
 }
+
 #view2:hover,
 #view2:focus {
   background-color: lightpink;
-  transition-property: background-color;
+
+  /* transition-property: background-color; */
   transition: all 2s ease 0.5s;
 }
+
 #view3:hover,
 #view3:focus {
   background-color: orange;
-  transition-property: background-color;
+
+  /* transition-property: background-color; */
   transition: all 2s ease 0.5s;
 }
+
 #view4:hover,
 #view4:focus {
   background-color: midnightblue;
-  transition-property: background-color;
+
+  /* transition-property: background-color; */
   transition: all 2s ease 0.5s;
 }
-.contact-btn {
+
+.contact-btn:hover,
+.contact-btn:active {
   background-color: midnightblue;
-  transition-property: background-color;
+
+  /* transition-property: background-color; */
   transition: all 1s ease 0.5s;
 }
 
-.animate{
-  animation-name:slidelogo;
-  animation:5s ease-in-out 1s 2 normal forward slide;
+.logo {
+  animation: 5s ease-in-out 1s 2 normal forward slide;
   font-size: larger;
 }
+
 @keyframes sildelogo {
   0% {
-    transform:translateX(0)
+    transform: translateX(0);
   }
+
   33% {
-    transform:translateX(100px) rotate(190deg)
+    transform: translateX(100px) rotate(190deg);
   }
+
   66% {
-    transform:translateX(-100px) rotate(-190deg)
+    transform: translateX(-100px) rotate(-190deg);
   }
+
   100% {
-    transform:translateX(0)
+    transform: translateX(0);
   }
 }
 
