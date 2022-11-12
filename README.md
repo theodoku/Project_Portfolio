@@ -3,7 +3,7 @@
 
 # Project_Portfolio
 
-> Setup and Mobile first
+> Desktop Version
 
 
 ## Built With
