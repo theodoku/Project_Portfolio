@@ -26,7 +26,7 @@
   --INTRO-MESSAGE-COLOR: #344563;
   --COONECT1-COLOR: #7f8cff;
   --LANGUAGES-COLOR: #253858;
-  --NAV-LINK-COLOR:#344563;
+  --NAV-LINK-COLOR: #344563;
 
   /* IMAGES */
   --BODY-BG-IMAGE: url("images 1/header-shapes mobile.png");
@@ -40,7 +40,7 @@ body {
   background-color: var(--BACKGROUND-COLOR);
 }
 
- a {
+a {
   text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .left_logo {
-  color:#6070FF;
+  color: #6070ff;
 }
 
 .header_wrapper {
@@ -83,7 +83,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color:var(--NAV-LINK-COLOR);
+  color: var(--NAV-LINK-COLOR);
 }
 
 .headline__section {
@@ -164,11 +164,11 @@ body {
   display: grid;
 }
 
-/*.Portfolio-pic {
+/* .Portfolio-pic {
   width: 295px;
   display: flex;
   flex-direction: column;
-}*/
+} */
 
 .container1 {
   display: flex;
@@ -311,8 +311,8 @@ body {
 
 .Prog_languages2,
 .Prog_languages4 {
-  display:flex;
-  gap:5%;
+  display: flex;
+  gap: 5%;
 }
 
 #tag1 {
@@ -436,7 +436,7 @@ a#resume:active {
   padding-top: 100px;
 }
 
-.About_Myself{
+.About_Myself {
   margin-top: 100px;
   width: 375px;
   height: 1240px;
@@ -468,7 +468,7 @@ a#resume:active {
   width: 327px;
   height: 144px;
   color: var(--INTRO-MESSAGE-COLOR);
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 #connect1 {
@@ -481,7 +481,7 @@ a#resume:active {
   height: 24px;
   color: var(--COONECT1-COLOR);
   margin-top: 30px;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 #connect,
@@ -502,7 +502,7 @@ a#resume:active {
 
 .view_resume {
   margin-top: 20px;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 #resume {
@@ -583,7 +583,7 @@ a#resume:active {
   position: relative;
 }
 
-.forward1{
+.forward1 {
   position: absolute;
   left: 76%;
   right: 33.33%;
@@ -758,16 +758,15 @@ button {
   margin-bottom: 12px;
 }
 
-/*----MEDIA QUERIES SECTION----*/
+/* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
 
- @media (min-width: 769px) {
+@media (min-width: 769px) {
   .header {
-   width: 100%;
-   padding: 15px 300px;
+    width: 100%;
+    padding: 15px 300px;
   }
-
 
   ul.nav_wrapper {
     float: right;
@@ -775,26 +774,25 @@ button {
   }
 
   .menu_btn {
-    display:none;
+    display: none;
   }
 
   .headline__section {
     background-image: url("images 1/desktop_bg.png");
     background-size: 100%;
-    width:100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 50vh;
   }
 
-  .Hello{
-    margin-left:20%
+  .Hello {
+    margin-left: 20%;
   }
 
   .greeting_message {
-    margin-left:20%;
-    margin-bottom:1%;
-
+    margin-left: 20%;
+    margin-bottom: 1%;
   }
 
   .greeting {
@@ -806,221 +804,215 @@ button {
   }
 
   .container1 {
-    position:relative;
-    width:90%;
+    position: relative;
+    width: 90%;
   }
-  
+
   .Portfolio-pic1,
-  .Portfolio-pic3{
-    position:absolute;
-    top:24px;
-    left:24px;
-    margin:10px;
-    width:554px;
+  .Portfolio-pic3 {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    margin: 10px;
+    width: 554px;
     height: 448px;
-    padding-top:2%;
+    padding-top: 2%;
   }
 
   .Portfolio-pic2,
   .Portfolio-pic4 {
-    position:absolute;
-    top:24px;
-    right:24px;
-    margin:8px;
-    width:554px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    margin: 8px;
+    width: 554px;
     height: 448px;
-    padding-top:5%;
+    padding-top: 5%;
   }
 
   .container2 {
-    position:relative;
-    width:90%;
+    position: relative;
+    width: 90%;
   }
 
   .container3 {
-    position:relative;
-    width:90%;
+    position: relative;
+    width: 90%;
   }
 
   .container4 {
-    position:relative;
-    width:90%;
+    position: relative;
+    width: 90%;
   }
-  
+
   #project_name1 {
-  position:absolute;
-  right:0;
-  margin-right:34%;
-  margin-top: 3%;
+    position: absolute;
+    right: 0;
+    margin-right: 34%;
+    margin-top: 3%;
   }
 
   .project-title1 {
-    position:absolute;
-    right:0;
-    margin-top:10%;
-    margin-right:21%;
+    position: absolute;
+    right: 0;
+    margin-top: 10%;
+    margin-right: 21%;
   }
 
   #sign-up1 {
-    position:absolute;
-    right:0;
-    margin-top:15%;
-    margin-right:1.5%;
+    position: absolute;
+    right: 0;
+    margin-top: 15%;
+    margin-right: 1.5%;
   }
 
   .Prog_languages {
     position: absolute;
-    right:0;
-    margin-top:22%;
-    margin-right:26%;
+    right: 0;
+    margin-top: 22%;
+    margin-right: 26%;
   }
 
   #project_name2 {
-    position:absolute;
-    left:0;
-    margin-left:2%;
-    bottom:75%;
-    }
-  
-    .project-title2 {
-      position:absolute;
-      left:0;
-      margin-top:13%;
-      margin-left:2%;
-    }
-  
-    #sign-up2 {
-      position:absolute;
-      left:0;
-      margin-top:18%;
-      margin-left:2%;
-    }
-  
-    .Prog_languages {
-      position: absolute;
-      right:0;
-      margin-top:22%;
-      margin-right:26%;
-    }
+    position: absolute;
+    left: 0;
+    margin-left: 2%;
+    bottom: 75%;
+  }
 
-  .View_project1{
-    position:absolute;
-    right:0;
-    margin-top:30%;
-    margin-right:34%;
- }
-    
-    .Prog_languages2,
-    .Prog_languages4 {
-      position: absolute;
-      left:0;
-      bottom:50%;
-      margin-left:2%;
-    }
+  .project-title2 {
+    position: absolute;
+    left: 0;
+    margin-top: 13%;
+    margin-left: 2%;
+  }
+
+  #sign-up2 {
+    position: absolute;
+    left: 0;
+    margin-top: 18%;
+    margin-left: 2%;
+  }
+
+  .View_project1 {
+    position: absolute;
+    right: 0;
+    margin-top: 30%;
+    margin-right: 34%;
+  }
+
+  .Prog_languages2,
+  .Prog_languages4 {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    margin-left: 2%;
+  }
 
   .View_project2 {
     position: absolute;
-    left:0;
-    margin-top:33%;
-    margin-left:2%;
+    left: 0;
+    margin-top: 33%;
+    margin-left: 2%;
   }
 
   #project_name3 {
-    position:absolute;
-    right:0;
-    margin-right:34%;
-    margin-top:3%;
-    }
-  
-    .project-title3 {
-      position:absolute;
-      right:0;
-      margin-top:10%;
-      margin-right:21%;
-    }
-  
-    #sign-up3 {
-      position:absolute;
-      right:0;
-      margin-top:15%;
-      margin-right:1.5%;
-    }
+    position: absolute;
+    right: 0;
+    margin-right: 34%;
+    margin-top: 3%;
+  }
 
-    .View_project3{
-      position:absolute;
-      right:0;
-      margin-top:30%;
-      margin-right:34%;
-    }
+  .project-title3 {
+    position: absolute;
+    right: 0;
+    margin-top: 10%;
+    margin-right: 21%;
+  }
 
-    #project_name4 {
-      position:absolute;
-      left:0;
-      margin-left:2%;
-      bottom:75%;
-      }
-    
-      .project-title4{
-        position:absolute;
-        left:0;
-        margin-top:13%;
-        margin-left:2%;
-      }
-    
-      #sign-up4{
-        position:absolute;
-        left:0;
-        margin-top:18%;
-        margin-left:2%;
-      }
+  #sign-up3 {
+    position: absolute;
+    right: 0;
+    margin-top: 15%;
+    margin-right: 1.5%;
+  }
 
-      .View_project4 {
-        position: absolute;
-        left:0;
-        margin-top:33%;
-        margin-left:2%;
-      }
- .About_Myself {
-  width:100%;
+  .View_project3 {
+    position: absolute;
+    right: 0;
+    margin-top: 30%;
+    margin-right: 34%;
+  }
 
- }
+  #project_name4 {
+    position: absolute;
+    left: 0;
+    margin-left: 2%;
+    bottom: 75%;
+  }
 
-  .About{
+  .project-title4 {
+    position: absolute;
+    left: 0;
+    margin-top: 13%;
+    margin-left: 2%;
+  }
+
+  #sign-up4 {
+    position: absolute;
+    left: 0;
+    margin-top: 18%;
+    margin-left: 2%;
+  }
+
+  .View_project4 {
+    position: absolute;
+    left: 0;
+    margin-top: 33%;
+    margin-left: 2%;
+  }
+
+  .About_Myself {
+    width: 100%;
+  }
+
+  .About {
     padding: 100px 0 0 0;
     margin-top: 100px;
   }
 
   .right {
     position: absolute;
-    right:30%;
-    margin-top:-30%;
+    right: 30%;
+    margin-top: -30%;
   }
+
   .footer_wrapper {
     width: 100%;
     flex-direction: row;
     align-content: center;
     align-self: center;
-    top:4500px;
+    top: 4500px;
   }
 
   .contact {
-    width:801px;
-    height:56px;
-    margin-left:45%;
-    margin-bottom:20px;
+    width: 801px;
+    height: 56px;
+    margin-left: 45%;
+    margin-bottom: 20px;
   }
 
   #text_footer {
-    width:569px;
-    height:102px;
-    left:270px;
-    top:230px;
+    width: 569px;
+    height: 102px;
+    left: 270px;
+    top: 230px;
   }
 
   #intro_message {
-    margin-left:25px;
-    width:447px;
-    height:102px;
+    margin-left: 25px;
+    width: 447px;
+    height: 102px;
   }
 
   #connect1 {
@@ -1042,78 +1034,77 @@ button {
   }
 
   .forward1 {
-  position: absolute;
-  left: 186%;
-  right: 33.33%;
-  top: 25%;
-  bottom: 25%;
- }
-  
- .down_arrow {
- position: absolute;
- left: 181%;
- }
+    position: absolute;
+    left: 186%;
+    right: 33.33%;
+    top: 25%;
+    bottom: 25%;
+  }
 
-.Text_frame::after,
-.Text::after {
-  content: "";
-  height: 1px;
-  width: 800px;
-  background: #dfe1e6;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
- }
+  .down_arrow {
+    position: absolute;
+    left: 181%;
+  }
 
-.javascript_frame,
-.html_frame,
-.css_frame {
-width:122px;
-height:120px;
-border-radius: 8px;
-background: #F7F7F9;
-display:inline-block;
-}
+  .Text_frame::after,
+  .Text::after {
+    content: "";
+    height: 1px;
+    width: 800px;
+    background: #dfe1e6;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
- .imag_js,
- .imag_html,
- .imag_css {
- margin:10%;
- }
+  .javascript_frame,
+  .html_frame,
+  .css_frame {
+    width: 122px;
+    height: 120px;
+    border-radius: 8px;
+    background: #f7f7f9;
+    display: inline-block;
+  }
 
- #language_text {
-  margin-left:0%;
- }
+  .imag_js,
+  .imag_html,
+  .imag_css {
+    margin: 10%;
+  }
 
- input {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 2px;
-  width: 447px;
-  height: 48px;
-  margin-left: 70%;
-  margin-top: 30px;
- }
+  #language_text {
+    margin-left: 0%;
+  }
 
- textarea {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 2px;
-  width: 447px;
-  height: 170px;
-  margin-left: 70%;
-  margin-top: 30px;
- }
+  input {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    width: 447px;
+    height: 48px;
+    margin-left: 70%;
+    margin-top: 30px;
+  }
 
- .contact-btn {
-  margin-left:95%;
- }
+  textarea {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    width: 447px;
+    height: 170px;
+    margin-left: 70%;
+    margin-top: 30px;
+  }
 
-}
-@media (max-width: 769px) {
-  .navigation {
-    display:none;
+  .contact-btn {
+    margin-left: 95%;
   }
 }
 
+@media (max-width: 769px) {
+  .navigation {
+    display: none;
+  }
+}
