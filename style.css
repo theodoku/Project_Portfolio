@@ -798,7 +798,7 @@ button {
   }
 
   .container1 {
-    display:flex;
+    display: flex;
     width: 90%;
   }
 
@@ -806,23 +806,24 @@ button {
   .project-imag2,
   .project-imag3,
   .project-imag4 {
-    width:544px;
-    height:448px;
+    width: 544px;
+    height: 448px;
   }
+
   .Portfolio-pic1,
   .Portfolio-pic3 {
-    width:580px;
-    height:500px;
-    margin-top:8px;
-    margin-left:3px;
+    width: 580px;
+    height: 500px;
+    margin-top: 8px;
+    margin-left: 3px;
   }
 
   .Portfolio-pic2,
   .Portfolio-pic4 {
-    width:580px;
-    height:500px;
-    margin-top:30px;
-    margin-right:3px;
+    width: 580px;
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 3px;
     float: right;
   }
 
@@ -842,48 +843,48 @@ button {
   }
 
   .card-title {
-    margin-top:-46%;
+    margin-top: -46%;
   }
 
-  /*.card_rev {
+  /* .card_rev {
     flex-direction: row-reverse;
-  }*/
+  } */
 
   .card-title2,
   .card-ttile4 {
-    margin-left:5%
+    margin-left: 5%;
   }
 
   #project_name1,
   #project_name3 {
-    margin-left:55%;
+    margin-left: 55%;
   }
 
   .project-title1,
   .project-title3 {
     margin-top: 2%;
-    margin-left:55%;
+    margin-left: 55%;
   }
 
   #sign-up1,
   #sign-up3 {
     margin-top: 3%;
-    margin-left:55%;
+    margin-left: 55%;
   }
 
   .Prog_languages {
-    margin-top:2%;
-    margin-left:55%;
+    margin-top: 2%;
+    margin-left: 55%;
   }
 
   #project_name2 {
-    margin-left:-3%;
-    margin-top:5%;
+    margin-left: -3%;
+    margin-top: 5%;
   }
 
   #project_name4 {
-    margin-left:3%;
-    margin-top:5%;
+    margin-left: 3%;
+    margin-top: 5%;
   }
 
   .project-title2,
@@ -900,13 +901,13 @@ button {
 
   .View_project1,
   .View_project3 {
-    margin-top:5%;
+    margin-top: 5%;
     margin-left: 55%;
   }
 
   .Prog_languages2,
   .Prog_languages4 {
-    margin-top:2%;
+    margin-top: 2%;
     margin-left: 2%;
   }
 
@@ -927,13 +928,13 @@ button {
     justify-content: center;
   }
 
-  .left{
-    margin-left:10%;
+  .left {
+    margin-left: 10%;
   }
 
   .right {
     align-items: flex-end;
-    margin-top:-30%;
+    margin-top: -30%;
   }
 
   .footer_wrapper {
@@ -987,12 +988,12 @@ button {
   }
 
   .down_arrow {
-    margin-left:20%;
+    margin-left: 20%;
   }
 
   #framework,
-  #skill{
-  margin-left: 51%;
+  #skill {
+    margin-left: 51%;
   }
 
   .Text_frame::after,
@@ -1001,11 +1002,11 @@ button {
     height: 1px;
     width: 600px;
     background: #dfe1e6;
-    margin-left:50%;
+    margin-left: 50%;
   }
 
   .frame {
-    margin-left:50%;
+    margin-left: 50%;
   }
 
   .javascript_frame,
@@ -1025,7 +1026,7 @@ button {
   }
 
   #language_text {
-    margin-left:46%;
+    margin-left: 46%;
   }
 
   input {
