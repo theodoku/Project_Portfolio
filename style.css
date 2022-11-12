@@ -70,7 +70,7 @@ a {
   display: flex;
   list-style: none;
   align-items: flex-end;
-  gap: 20%;
+  gap: 6%;
   text-align: center;
 }
 
@@ -759,13 +759,14 @@ button {
 @media (min-width: 769px) {
   .header {
     width: 100%;
-    padding: 15px 300px;
+    padding: 10px 145px;
   }
 
   ul.nav_wrapper {
     float: right;
     margin-top: -45px;
   }
+
 
   .menu_btn {
     display: none;
@@ -776,21 +777,22 @@ button {
     background-size: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 50vh;
+    background-position:center;
+    min-height:50vh;
+    padding:22%;
   }
 
   .Hello {
-    margin-left: 20%;
+    margin-left:-10%;
   }
 
   .greeting_message {
-    margin-left: 20%;
+    margin-left:-10%;
     margin-bottom: 1%;
   }
 
   .greeting {
-    margin-left: 20%;
+    margin-left:-10%;
   }
 
   .works_section {
@@ -816,6 +818,7 @@ button {
     height: 500px;
     margin-top: 8px;
     margin-left: 3px;
+    float:left;
   }
 
   .Portfolio-pic2,
@@ -846,10 +849,6 @@ button {
     margin-top: -46%;
   }
 
-  /* .card_rev {
-    flex-direction: row-reverse;
-  } */
-
   .card-title2,
   .card-ttile4 {
     margin-left: 5%;
@@ -857,34 +856,35 @@ button {
 
   #project_name1,
   #project_name3 {
-    margin-left: 55%;
+    margin-left:58%;
+    margin-top:50%
   }
 
   .project-title1,
   .project-title3 {
-    margin-top: 2%;
-    margin-left: 55%;
+    margin-top:2%;
+    margin-left:58%;
   }
 
   #sign-up1,
   #sign-up3 {
-    margin-top: 3%;
-    margin-left: 55%;
+    margin-top: 2%;
+    margin-left: 58%;
   }
 
   .Prog_languages {
     margin-top: 2%;
-    margin-left: 55%;
+    margin-left: 58%;
   }
 
   #project_name2 {
-    margin-left: -3%;
-    margin-top: 5%;
+    margin-left:-3%;
+    margin-top: 7%;
   }
 
   #project_name4 {
     margin-left: 3%;
-    margin-top: 5%;
+    margin-top: 7%;
   }
 
   .project-title2,
@@ -901,8 +901,8 @@ button {
 
   .View_project1,
   .View_project3 {
-    margin-top: 5%;
-    margin-left: 55%;
+    margin-top: 3%;
+    margin-left: 58%;
   }
 
   .Prog_languages2,
@@ -944,19 +944,21 @@ button {
     align-self: center;
     top: 4500px;
   }
+.footer_contact {
+  margin-top:1%;
+}
 
   .contact {
     width: 801px;
     height: 56px;
-    margin-left: 45%;
-    margin-bottom: 20px;
+    margin-left: 67%;
   }
 
   #text_footer {
     width: 569px;
     height: 102px;
-    left: 270px;
-    top: 230px;
+    margin-left:30%;
+    margin-top:2%;
   }
 
   #intro_message {
@@ -1035,8 +1037,8 @@ button {
     border-radius: 2px;
     width: 447px;
     height: 48px;
-    margin-left: 70%;
-    margin-top: 30px;
+    margin-left: 110%;
+    margin-top:25px;
   }
 
   textarea {
@@ -1045,12 +1047,12 @@ button {
     border-radius: 2px;
     width: 447px;
     height: 170px;
-    margin-left: 70%;
+    margin-left: 110%;
     margin-top: 30px;
   }
 
   .contact-btn {
-    margin-left: 95%;
+    margin-left: 143%;
   }
 }
 
