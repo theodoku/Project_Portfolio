@@ -5,7 +5,8 @@
 
 > Desktop Version
 
-
+##deployment
+https://theodoku.github.io/Project_Portfolio/
 ## Built With
 
 - HTML & CSS
