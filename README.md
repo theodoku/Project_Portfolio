@@ -5,8 +5,8 @@
 > Desktop Version
 
 ## Deployment
-![screenshot](/images/screenshot/desktop.png)
-![screenshot](/images/screenshot/mobile.png)
+![screenshot](/This PC/Desktop/screenshot/desktop.png)
+![screenshot](/This PC/Desktop/screenshot/mobile.png)
 
 ## Live Demo 
 [Live Demo Link](https://theodoku.github.io/Project_Portfolio/)
