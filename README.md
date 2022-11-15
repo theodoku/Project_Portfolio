@@ -1,4 +1,3 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project_Portfolio
@@ -6,24 +5,23 @@
 > Desktop Version
 
 ##Deployment
+
 - https://theodoku.github.io/Project_Portfolio/
 
 ## Built With
 
 - HTML & CSS
 
-
 ## Getting Started
 
-* Clone the repo and open in browser
+- Clone the repo and open in browser
 
 ## Authors
 
-👤 *Theo**
+👤 \*Theo\*\*
 
 - GitHub: [@theodoku](https://github.com/theodoku)
 - Twitter: [@dok_theo](https://twitter.com/Theo_dok)
-
 
 ## 🤝 Contributing
 

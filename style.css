@@ -47,7 +47,7 @@ a {
 /* || HEADER */
 .header {
   position: absolute;
-  width: 375px;
+  width: 390px;
   top: 0;
   left: 0;
 }
@@ -428,9 +428,9 @@ a#resume:active {
 
 .About_Myself {
   margin-top: 100px;
-  width: 375px;
+  width: 390px;
   height: 1240px;
-  left: 375px;
+  left: 390px;
   top: 4769px;
   background-color: var(--BACKGROUND-COLOR1);
   border-top-right-radius: 120px;
@@ -445,7 +445,7 @@ a#resume:active {
   display: flex;
   align-items: center;
   color: var(--TEXT-COLOR);
-  width: 327px;
+  width: 375px;
   height: 101px;
 }
 
@@ -454,8 +454,8 @@ a#resume:active {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  width: 327px;
+  line-height: 18px;
+  width: 375px;
   height: 144px;
   color: var(--INTRO-MESSAGE-COLOR);
   margin-left: 20px;
@@ -619,8 +619,8 @@ a#resume:active {
 .footer_wrapper {
   position: absolute;
   left: 0;
-  top: 4580px;
-  width: 375px;
+  top: 4585px;
+  width: 390px;
   height: 800px;
   background-image: url("images 1/contact-form-shapes-mobile.svg");
   background-repeat: no-repeat;
