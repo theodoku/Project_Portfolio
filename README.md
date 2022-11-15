@@ -5,6 +5,8 @@
 
 > Desktop Version
 
+##Deployment
+- https://theodoku.github.io/Project_Portfolio/
 
 ## Built With
 
