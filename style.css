@@ -92,7 +92,7 @@ a {
   background-color: var(--BACKGROUND-COLOR1);
   padding-bottom: 25%;
   border-bottom-left-radius: 70px;
-  width: 375px;
+  width: 390px;
 }
 
 #connect {
@@ -615,6 +615,10 @@ a#resume:active {
 }
 
 /* || FOOTER */
+/*.contact_form {
+  position: absolute;
+  top:-15px;
+}*/
 
 .footer_wrapper {
   position: absolute;
