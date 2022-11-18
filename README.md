@@ -11,6 +11,9 @@
 ## Live Demo 
 [Live Demo Link](https://theodoku.github.io/Project_Portfolio/)
 
+## Loom Walkthrough
+[Loom link](https://www.loom.com/share/8376b614e101498fab1d5ee64023e977)
+
 
 ## Built With
 
