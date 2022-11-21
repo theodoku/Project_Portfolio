@@ -33,6 +33,11 @@
 }
 
 /* || GENERAL STYLE */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--FF);
   width: 100%;
@@ -62,12 +67,46 @@ a {
   margin-right: 15px;
 }
 
+.navigation {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: auto;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(15px);
+  padding-top: 60px;
+  padding-left: 15px;
+}
+
+.btn_wrapper {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.close_btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+  outline: none;
+}
+
 .nav_wrapper {
   display: flex;
   list-style: none;
-  align-items: flex-end;
+  flex-direction: column;
   gap: 6%;
-  text-align: center;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.menu {
+  cursor: pointer;
 }
 
 .nav_item {
@@ -76,10 +115,10 @@ a {
 
 .nav_link {
   font-family: var(--FF);
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: var(--NAV-LINK-COLOR);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
 }
 
 .headline__section {
@@ -158,6 +197,10 @@ a {
 
 .works_section {
   display: grid;
+}
+
+.Card_Works {
+  margin-left: 15px;
 }
 
 .container1 {
@@ -615,10 +658,11 @@ a#resume:active {
 }
 
 /* || FOOTER */
-/*.contact_form {
+
+/* .contact_form {
   position: absolute;
   top:-15px;
-}*/
+} */
 
 .footer_wrapper {
   position: absolute;
@@ -767,8 +811,28 @@ button {
     margin-top: -45px;
   }
 
+  .nav_wrapper {
+    flex-direction: row;
+  }
+
   .menu_btn {
     display: none;
+  }
+
+  .navigation {
+    display: contents !important;
+    background: none;
+  }
+
+  .btn_wrapper {
+    display: none;
+  }
+
+  .nav_link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
   }
 
   .headline__section {
@@ -1068,25 +1132,25 @@ button {
 
 .Portfolio-pic1:hover,
 .Portfolio-pic1:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
 .Portfolio-pic2:hover,
 .Portfolio-pic2:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
 .Portfolio-pic3:hover,
 .Portfolio-pic3:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
 .Portfolio-pic4:hover,
 .Portfolio-pic4:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
@@ -1141,11 +1205,5 @@ button {
 
   100% {
     transform: translateX(0);
-  }
-}
-
-@media (max-width: 769px) {
-  .navigation {
-    display: none;
   }
 }
