@@ -1,257 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio: setup and mobile first</title> 
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio: setup and mobile first</title>
+  </head>
+  <body>
     <header class="header">
-        <div class="header_wrapper">
-            <a class="logo">
-                <p class="left_logo">SOZO</p>
-            </a>
-            <a class="menu_btn">
-                <img src="images 1/menu.png" class="menu" alt="menu button">
-            </a>
+      <div class="header_wrapper">
+        <a class="logo">
+          <p class="left_logo">SOZO</p>
+        </a>
+        <a class="menu_btn" href="javascript:openMobileMenu()">
+          <img src="images 1/menu.png" class="menu" alt="menu button" />
+        </a>
+      </div>
+      <nav class="navigation" id="nav">
+        <div class="btn_wrapper">
+          <button class="close_btn" onclick="closeMobileMenu()">
+            <img src="images 1/closeBtn.png" alt="menu_btn" />
+          </button>
         </div>
-        <nav class="navigation">
-            <div class="btn_wrapper">
-                <button class="close_btn">
-                    <img src="images 1/closeBtn.png" alt="menu_btn">
-                </button>
-            </div>
-            <ul class="nav_wrapper">
-                <li class="nav_item">
-                    <a href="#" class="nav_link"> Portfolio </a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link"> About </a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link"> Contact </a>
-                </li>
-            </ul>
-        </nav>
+        <ul class="nav_wrapper">
+          <li class="nav_item">
+            <a href="#" class="nav_link"> Portfolio </a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link"> About </a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link"> Contact </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-
     <section class="headline__section">
-        <headline class="Hello">
-            <h1 id="greeting">I'm Theophilus<br>Glad to see you!</h1>
-        </headline>
-        <div class="greeting_message">
-            <p id="message">I'm a software developer I can help you build a project, feature or website look through<br>some of my work and experience! If you like what you see and have a project you need<br>coded, dont hesitate to contact me</p>
-        </div>
-     <Greeting class="greeting">
-            <a href="#"id="connect"> LET'S CONNECT</a>
+      <headline class="Hello">
+        <h1 id="greeting">I'm Theophilus<br />Glad to see you!</h1>
+      </headline>
+      <div class="greeting_message">
+        <p id="message">
+          I'm a software developer I can help you build a project, feature or
+          website look through<br />some of my work and experience! If you like
+          what you see and have a project you need<br />coded, dont hesitate to
+          contact me
+        </p>
+      </div>
+      <Greeting class="greeting">
+        <a href="#" id="connect"> LET'S CONNECT</a>
         <ul class="social">
-            <li><a href='#'><img src="images 1/twitter.png" class="twitter"  alt="twitter bird"></a></li>
-            <li><a href='#'><img src="images 1/Vector.png" class="Vector I" alt="Vector"></a></li>
-            <li><a href='#'><img src="images 1/Vector (1).png" class="Vector II" alt="Vector 1"></a></li>
-            <li><a href='#'><img src="images 1/medium.png"  class="Medium"  alt="Medium"></a><li>
-            <li><a href='#'><img src="images 1/github.png" class="github"   alt="github"></a></li>
-            <li><a href='#'><img src="images 1/angellist.png" class="angellist"  alt="angellist icon"></a></li>
+          <li>
+            <a href="#"
+              ><img
+                src="images 1/twitter.png"
+                class="twitter"
+                alt="twitter bird"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images 1/Vector.png" class="Vector I" alt="Vector"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="images 1/Vector (1).png"
+                class="Vector II"
+                alt="Vector 1"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images 1/medium.png" class="Medium" alt="Medium"
+            /></a>
+          </li>
+          <li></li>
+          <li>
+            <a href="#"
+              ><img src="images 1/github.png" class="github" alt="github"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="images 1/angellist.png"
+                class="angellist"
+                alt="angellist icon"
+            /></a>
+          </li>
         </ul>
-     </Greeting>
+      </Greeting>
     </section>
     <section class="works_section">
-        <div class="Card_Works">
-            <div class="container1">
-                <div class="card_rev1">
-                    <div class="project-imag 1">
-                    <img src="images 1/Portfolio-img1.png" class="Portfolio-pic1" alt="card picture with an image">
-                    </div>
-                    <div class="card-title">
-                        <h2 id="project_name1">TONIC</h2>
-                    </div>
-                    <div class="project-title1">
-                        <ul class="ul_description">
-                            <li class="title_name">CANOPY</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="job_title">Back End Dev</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                        <p id="sign-up1">A daily selection of privatley personalized reads;no accounts<br>or sign-ups required.</p>
-                        <ul class="Prog_languages">
-                            <li id="tag1">html</li>
-                            <li id="tag2">css</li>
-                            <li id="tag3">javascript</li>
-                        </ul>
-                    <div class="View_project1">
-                        <a href="#" id="view1">See Project</a>
-                    </div>
-                </div>
+      <div class="Card_Works">
+        <div class="container1">
+          <div class="card_rev1">
+            <div class="project-imag 1">
+              <img
+                src="images 1/Portfolio-img1.png"
+                class="Portfolio-pic1"
+                alt="card picture with an image"
+              />
             </div>
-            <div class="container2">
-                <div class="card_rev2">
-                    <div class="project-imag 2">
-                        <img src="images 1/Portfolio_img (2).png" class="Portfolio-pic2" alt="Picture card">
-                    </div>
-                    <div class="card-title2">
-                        <h2 id="project_name2">Multi-Post Stories</h2>
-                    </div>
-                    <div class="project-title2">
-                        <ul class="ul_description">
-                            <li class="title_name">CANOPY</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="job_title">Back End Dev</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                        <p id="sign-up2">A daily selection of privatley personalized reads;no accounts<br>or sign-ups required.</p>
-                        <ul class="Prog_languages2">
-                            <li id="tag1">html</li>
-                            <li id="tag2">css</li>
-                            <li id="tag3">javascript</li>
-                        </ul>
-                        <div class="View_project2">
-                            <a href="#"id="view2">See Project</a>
-                        </div>
-                </div>
+            <div class="card-title">
+              <h2 id="project_name1">TONIC</h2>
             </div>
-            <div class="container3">
-                <div class="card_rev3">
-                    <div class="project-imag 3">
-                        <img src="images 1/Portfolio_img (3).png" class="Portfolio-pic3" alt="picture card">
-                    </div>
-                    <div class="card-title">
-                        <h2 id="project_name3">TONIC</h2>
-                    </div>
-                    <div class="project-title3">
-                        <ul class="ul_description">
-                            <li class="title_name">CANOPY</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="job_title">Back End Dev</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p id="sign-up3">A daily selection of privatley personalized reads;no accounts<br>or sign-ups required.</p>
-                        <ul class="Prog_languages">
-                            <li id="tag1">html</li>
-                            <li id="tag2">css</li>
-                            <li id="tag3">javascript</li>
-                        </ul>
-                    <div class="View_project3">
-                        <a href="#" id="view3">See Project</a>
-                    </div>
-                </div>
+            <div class="project-title1">
+              <ul class="ul_description">
+                <li class="title_name">CANOPY</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="job_title">Back End Dev</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="year">2015</li>
+              </ul>
             </div>
-            <div class="container4">
-                <div class="card_rev4">
-                    <div class="project-imag 4">
-                        <img src="images 1/Snapshoot Portfolio (4).png" class="Portfolio-pic4" alt="Picture card">
-                    </div>
-                    <div class="card-title4">
-                        <h2 id="project_name4">Multi-Post Stories</h2>
-                    </div>
-                    <div class="project-title4">
-                        <ul class="ul_description">
-                            <li class="title_name">CANOPY</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="job_title">Back End Dev</li>
-                            <li class="counter"><img src="images 1/Counter (1).png"></li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p id="sign-up4">A daily selection of privatley personalized reads;no accounts<br>or sign-ups required.</p>
-                        <ul class="Prog_languages4">
-                            <li id="tag1">html</li>
-                            <li id="tag2">css</li>
-                            <li id="tag3">javascript</li>
-                        </ul>
-                    <div class="View_project4">
-                        <a href="#" id="view4">See Project</a>
-                    </div>
-                </div>
+            <p id="sign-up1">
+              A daily selection of privatley personalized reads;no accounts<br />or
+              sign-ups required.
+            </p>
+            <ul class="Prog_languages">
+              <li id="tag1">html</li>
+              <li id="tag2">css</li>
+              <li id="tag3">javascript</li>
+            </ul>
+            <div class="View_project1">
+              <a href="#" id="view1">See Project</a>
             </div>
+          </div>
         </div>
+        <div class="container2">
+          <div class="card_rev2">
+            <div class="project-imag 2">
+              <img
+                src="images 1/Portfolio_img (2).png"
+                class="Portfolio-pic2"
+                alt="Picture card"
+              />
+            </div>
+            <div class="card-title2">
+              <h2 id="project_name2">Multi-Post Stories</h2>
+            </div>
+            <div class="project-title2">
+              <ul class="ul_description">
+                <li class="title_name">CANOPY</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="job_title">Back End Dev</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="year">2015</li>
+              </ul>
+            </div>
+            <p id="sign-up2">
+              A daily selection of privatley personalized reads;no accounts<br />or
+              sign-ups required.
+            </p>
+            <ul class="Prog_languages2">
+              <li id="tag1">html</li>
+              <li id="tag2">css</li>
+              <li id="tag3">javascript</li>
+            </ul>
+            <div class="View_project2">
+              <a href="#" id="view2">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="container3">
+          <div class="card_rev3">
+            <div class="project-imag 3">
+              <img
+                src="images 1/Portfolio_img (3).png"
+                class="Portfolio-pic3"
+                alt="picture card"
+              />
+            </div>
+            <div class="card-title">
+              <h2 id="project_name3">TONIC</h2>
+            </div>
+            <div class="project-title3">
+              <ul class="ul_description">
+                <li class="title_name">CANOPY</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="job_title">Back End Dev</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="year">2015</li>
+              </ul>
+            </div>
+            <p id="sign-up3">
+              A daily selection of privatley personalized reads;no accounts<br />or
+              sign-ups required.
+            </p>
+            <ul class="Prog_languages">
+              <li id="tag1">html</li>
+              <li id="tag2">css</li>
+              <li id="tag3">javascript</li>
+            </ul>
+            <div class="View_project3">
+              <a href="#" id="view3">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="container4">
+          <div class="card_rev4">
+            <div class="project-imag 4">
+              <img
+                src="images 1/Snapshoot Portfolio (4).png"
+                class="Portfolio-pic4"
+                alt="Picture card"
+              />
+            </div>
+            <div class="card-title4">
+              <h2 id="project_name4">Multi-Post Stories</h2>
+            </div>
+            <div class="project-title4">
+              <ul class="ul_description">
+                <li class="title_name">CANOPY</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="job_title">Back End Dev</li>
+                <li class="counter"><img src="images 1/Counter (1).png" /></li>
+                <li class="year">2015</li>
+              </ul>
+            </div>
+            <p id="sign-up4">
+              A daily selection of privatley personalized reads;no accounts<br />or
+              sign-ups required.
+            </p>
+            <ul class="Prog_languages4">
+              <li id="tag1">html</li>
+              <li id="tag2">css</li>
+              <li id="tag3">javascript</li>
+            </ul>
+            <div class="View_project4">
+              <a href="#" id="view4">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="About_Myself">
-        <div class="desk_container">
-            <div class="left">
-                <div class="Myself">
-                    <h2 id="text">About<br>Myself</h2>
-                </div>
-                <div>
-                    <p id="intro_message">Hello i'm a software developer!I can help you build a<br>project, feature or website Look through some of my<br> work and experience! If you like what you see and have<br>a project you need coded, dont hesitate to contact me.</p>
-                </div>
-                <div>
-                    <a href="#"id="connect1"> LET'S CONNECT</a>
-                </div>
-                <ul class="social1">
-                    <li><a href='#'><img src="images 1/github.png" class="github"   alt="github"></a></li>
-                    <li><a href='#'><img src="images 1/Vector.png" class="Vector I" alt="Vector"></a></li>
-                    <li><a href='#'><img src="images 1/Vector (1).png" class="Vector II" alt="Vector 1"></a></li>
-                    <li><a href='#'><img src="images 1/angellist.png" class="angellist"  alt="angellist icon"></a></li>
-                    <li><a href='#'><img src="images 1/twitter.png" class="twitter"  alt="twitter bird"></a></li>
-                    <li><a href='#'><img src="images 1/medium.png"  class="Medium"  alt="Medium"></a><li>
-                </ul>
-                <div class="view_resume">
-                    <a href="#"id="resume">Get my resume</a>
-                </div>
-            </div>
-            <div class="right">
-                <div class="languages">
-                    <h2 id="language_text">Languages</h2>    
-                    <img src="images 1/expand-arrow.png" class="down_arrow"    width="20" height="20">
-                </div>
-                <div class="frame">
-                    <div class="javascript_frame">
-                        <img src="images 1/JS image.png" class="imag_js">
-                        <p id="text_js">Javascript</p>
-                    </div>
-                    <div class="html_frame">
-                        <img src="images 1/html image.png" class="imag_html">
-                        <p id="text_html">HTML</p>
-                    </div>
-                    <div class="css_frame">
-                        <img src="images 1/css image.png" class="imag_css">
-                        <p id="text_css">CSS</p>
-                    </div>
-                </div>
-                <div class="Text_frame">
-                    <h2 id="framework">Frameworks</h2>
-                    <img src="images 1/forward.png"class="forward1"   width="15" height="15">
-                </div>
-                <div class="Text">
-                    <h2 id="skill">Skills</h2>
-                    <img src="images 1/forward.png"class="forward"   width="15" height="15">
-                </div>
-            </div>
+      <div class="desk_container">
+        <div class="left">
+          <div class="Myself">
+            <h2 id="text">About<br />Myself</h2>
+          </div>
+          <div>
+            <p id="intro_message">
+              Hello i'm a software developer!I can help you build a<br />project,
+              feature or website Look through some of my<br />
+              work and experience! If you like what you see and have<br />a
+              project you need coded, dont hesitate to contact me.
+            </p>
+          </div>
+          <div>
+            <a href="#" id="connect1"> LET'S CONNECT</a>
+          </div>
+          <ul class="social1">
+            <li>
+              <a href="#"
+                ><img src="images 1/github.png" class="github" alt="github"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images 1/Vector.png" class="Vector I" alt="Vector"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images 1/Vector (1).png"
+                  class="Vector II"
+                  alt="Vector 1"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images 1/angellist.png"
+                  class="angellist"
+                  alt="angellist icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images 1/twitter.png"
+                  class="twitter"
+                  alt="twitter bird"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images 1/medium.png" class="Medium" alt="Medium"
+              /></a>
+            </li>
+            <li></li>
+          </ul>
+
+          <div class="view_resume">
+            <a href="#" id="resume">Get my resume</a>
+          </div>
         </div>
+        <div class="right">
+          <div class="languages">
+            <h2 id="language_text">Languages</h2>
+            <img
+              src="images 1/expand-arrow.png"
+              class="down_arrow"
+              width="20"
+              height="20"
+            />
+          </div>
+          <div class="frame">
+            <div class="javascript_frame">
+              <img src="images 1/JS image.png" class="imag_js" />
+              <p id="text_js">Javascript</p>
+            </div>
+            <div class="html_frame">
+              <img src="images 1/html image.png" class="imag_html" />
+              <p id="text_html">HTML</p>
+            </div>
+            <div class="css_frame">
+              <img src="images 1/css image.png" class="imag_css" />
+              <p id="text_css">CSS</p>
+            </div>
+          </div>
+          <div class="Text_frame">
+            <h2 id="framework">Frameworks</h2>
+            <img
+              src="images 1/forward.png"
+              class="forward1"
+              width="15"
+              height="15"
+            />
+          </div>
+          <div class="Text">
+            <h2 id="skill">Skills</h2>
+            <img
+              src="images 1/forward.png"
+              class="forward"
+              width="15"
+              height="15"
+            />
+          </div>
+        </div>
+      </div>
     </section>
     <footer class="contact_form">
-        <div class="footer_wrapper">
-            <div class="footer_contact">
-                <h2 class="contact">Contact me</h2>
-            </div>
-            <div class="text">
-            <p id="text_footer">If you have an application you are interested in<br>developing, a feature that you need built or a project<br>that needs coding. I'd love to help with it.</p>
-            </div>
-            <form action="https://formspree.io/f/meqdvkdq" method="Post">
-                <ul class="list">
-                    <li>
-                        <input type="text" name="Name" placeholder="Full Name" maxlength="30" required>
-                    </li>
-                    <li>
-                        <input type="email" name="Email" placeholder="Email" required>
-                    </li>
-                    <li>
-                        <textarea name="Message" placeholder="Write your message here" maxlength="500" required></textarea>
-                    </li>
-                    <li class="button">
-                        <button type="submit" class="contact-btn">Get in touch</button>
-                    </li> 
-                </ul>
-            </form>
-       </div>
+      <div class="footer_wrapper">
+        <div class="footer_contact">
+          <h2 class="contact">Contact me</h2>
+        </div>
+        <div class="text">
+          <p id="text_footer">
+            If you have an application you are interested in<br />developing, a
+            feature that you need built or a project<br />that needs coding. I'd
+            love to help with it.
+          </p>
+        </div>
+        <form action="https://formspree.io/f/meqdvkdq" method="Post">
+          <ul class="list">
+            <li>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Full Name"
+                maxlength="30"
+                required
+              />
+            </li>
+            <li>
+              <input type="email" name="Email" placeholder="Email" required />
+            </li>
+            <li>
+              <textarea
+                name="Message"
+                placeholder="Write your message here"
+                maxlength="500"
+                required
+              ></textarea>
+            </li>
+            <li class="button">
+              <button type="submit" class="contact-btn">Get in touch</button>
+            </li>
+          </ul>
+        </form>
+      </div>
     </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
