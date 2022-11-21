@@ -819,7 +819,7 @@ button {
   }
 
   .navigation {
-    display: contents;
+    display: contents !important;
     background: none;
   }
 
