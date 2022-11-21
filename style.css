@@ -1132,25 +1132,25 @@ button {
 
 .Portfolio-pic1:hover,
 .Portfolio-pic1:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
 .Portfolio-pic2:hover,
 .Portfolio-pic2:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
 .Portfolio-pic3:hover,
 .Portfolio-pic3:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
 .Portfolio-pic4:hover,
 .Portfolio-pic4:focus {
-  transform: scale(50%, 50%);
+  transform: scale(2);
   transition: all ease-in 0.3s;
 }
 
