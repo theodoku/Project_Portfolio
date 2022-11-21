@@ -52,7 +52,7 @@ a {
 /* || HEADER */
 .header {
   position: absolute;
-  width: 390px;
+  width: 395px;
   top: 0;
   left: 0;
 }
@@ -131,7 +131,7 @@ a {
   background-color: var(--BACKGROUND-COLOR1);
   padding-bottom: 25%;
   border-bottom-left-radius: 70px;
-  width: 390px;
+  width: 395px;
 }
 
 #connect {
@@ -471,7 +471,7 @@ a#resume:active {
 
 .About_Myself {
   margin-top: 100px;
-  width: 390px;
+  width: 395px;
   height: 1240px;
   left: 390px;
   top: 4769px;
@@ -657,6 +657,10 @@ a#resume:active {
   bottom: 0;
 }
 
+#text_footer {
+  margin-left:5px;
+}
+
 /* || FOOTER */
 
 /* .contact_form {
@@ -668,7 +672,7 @@ a#resume:active {
   position: absolute;
   left: 0;
   top: 4585px;
-  width: 390px;
+  width: 395px;
   height: 800px;
   background-image: url("images 1/contact-form-shapes-mobile.svg");
   background-repeat: no-repeat;
@@ -800,7 +804,7 @@ button {
 
 /* || DESKTOP VERSION */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .header {
     width: 100%;
     padding: 10px 145px;
@@ -1021,7 +1025,7 @@ button {
   #text_footer {
     width: 569px;
     height: 102px;
-    margin-left: 30%;
+    margin-left: 33%;
     margin-top: 2%;
   }
 
