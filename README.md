@@ -2,7 +2,7 @@
 
 # Project_Portfolio
 
-> Desktop Version
+> Mobile menu
 
 ## Deployment
 - ![screenshot](images1/desktop.png)
@@ -23,12 +23,20 @@
 
 - Clone the repo and open in browser
 
-## Authors
+## Author 1
 
 👤 \*Theo\*\*
 
 - GitHub: [@theodoku](https://github.com/theodoku)
 - Twitter: [@dok_theo](https://twitter.com/Theo_dok)
+
+## Author 2
+
+👤 \*Sabi\*\*
+
+- GitHub: [@SabiMantock](https://github.com/SabiMantock)
+- Twitter: [@sabi_mantock](https://twitter.com/Mantock_sabi)
+
 
 ## 🤝 Contributing
 
