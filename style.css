@@ -33,6 +33,11 @@
 }
 
 /* || GENERAL STYLE */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--FF);
   width: 100%;
@@ -192,6 +197,10 @@ cursor: pointer;
 
 .works_section {
   display: grid;
+}
+
+.Card_Works {
+  margin-left: 15px;
 }
 
 .container1 {
