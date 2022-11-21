@@ -7,3 +7,6 @@ function openMobileMenu() {
 function closeMobileMenu() {
     nav.style.display = 'none';
 }
+
+openMobileMenu();
+closeMobileMenu();
