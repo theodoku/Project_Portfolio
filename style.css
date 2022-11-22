@@ -844,7 +844,7 @@ button {
 /* ----MODAL POPUP SESSION ---*/
 
 .modal {
-  /* display:none; */
+  display: none;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -941,9 +941,25 @@ button {
   line-height: normal;
 }
 
-.text_modal {
-  display:;
+#dot-0 {
+  width: 8px;
+  height: 8px;
 }
+
+#dot-1 {
+  width: 8px;
+  height: 8px;
+}
+
+#dot-2 {
+  width: 8px;
+  height: 8px;
+  display: none;
+}
+
+/* .text_modal {
+  display: ;
+} */
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
@@ -1342,9 +1358,9 @@ button {
   gap: 5px;
 }
 
-.modal_content { 
+.modal_content {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   gap: 50px;
   justify-content: space-between;
 }
