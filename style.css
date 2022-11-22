@@ -871,6 +871,11 @@ button {
   overflow: auto;
 }
 
+.modal_content {
+  display: flex;
+  flex-direction: column;
+}
+
 .modal_btn_wrapper {
   width: 24px;
   margin-top: 12px;
@@ -911,11 +916,6 @@ button {
   align-items: center;
 }
 
-.modal_content {
-  display: flex;
-  flex-direction: column;
-}
-
 .info_modal {
   display: flex;
   gap: 5px;
@@ -941,6 +941,9 @@ button {
   line-height: normal;
 }
 
+.text_modal {
+  display:;
+}
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
@@ -1339,9 +1342,9 @@ button {
   gap: 5px;
 }
 
-.modal_content {
-  flex-direction: row;
-  align-items: flex-start;
+.modal_content { 
+  display: flex;
+  flex-direction:column;
   gap: 50px;
   justify-content: space-between;
 }
