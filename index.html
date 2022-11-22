@@ -96,8 +96,8 @@
       </Greeting>
     </section>
     <section class="works_section">
-      <div class="Card_Works">
-        <div class="container1">
+      <div class="Card_Works" id="portfolio">
+        <!-- <div class="container1">
           <div class="Card_rev">
             <div class="project-imag 1">
               <img
@@ -236,7 +236,7 @@
               <a href="#" id="view4">See Project</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -391,7 +391,7 @@
       </div>
     </footer>
     <!-- Modal -->
-    <div class="modal" id="modal">
+    <div class="modal" id="modal" onclick="closeModal()">
       <div class="modal_container">
         <div class="modal_title">
           <div class="modal_wrapper">
@@ -399,7 +399,11 @@
               <h3 id="text_modal">TONIC</h3>
             </div>
             <div class="modal_btn_wrapper">
-              <button class="modal_close_btn" type="button">
+              <button
+                class="modal_close_btn"
+                onclick="closeModal()"
+                type="button"
+              >
                 <img src="images 1/modal-close.png" alt="menu_button" />
               </button>
             </div>
@@ -416,11 +420,12 @@
           <img
             src="images 1/Portfolio-img1.png"
             alt="card picture with an image"
+            id="modal-im"
           />
         </div>
         <div class="modal_content">
           <div class="modal_description">
-            <p class="text_modal">
+            <p class="text_modal" id="des">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -437,7 +442,7 @@
             </ul>
             <div class="modal_btns">
               <div class="button_container modal_btn">
-                <a href="#" class="btn modalBtn">
+                <a href="#" class="btn modalBtn" id="live">
                   <p>See Live</p>
                   <div class="im">
                     <svg
@@ -459,7 +464,7 @@
                 </a>
               </div>
               <div class="button-container">
-                <a href="#" class="btn modalBtn"
+                <a href="#" class="btn modalBtn" id="source"
                   ><p>See Source</p>
                   <div class="im">
                     <svg
