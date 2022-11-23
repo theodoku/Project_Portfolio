@@ -11,7 +11,7 @@ const source = document.getElementById('source');
 const cards = [
   {
     title: 'Tonic',
-    image: 'images 1/Portfolio-img1.png',
+    image: 'images 1/cardImg1.png',
     longDes:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     live: '#',
@@ -23,7 +23,7 @@ const cards = [
   },
   {
     title: 'Multi-Post Stories',
-    image: 'images 1/Portfolio_img (2).png',
+    image: 'images 1/cardImg2.png',
     longDes:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     live: '#',
@@ -35,7 +35,7 @@ const cards = [
   },
   {
     title: 'Tonic',
-    image: 'images 1/Portfolio_img (3).png',
+    image: 'images 1/cardImg3.png',
     longDes:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     live: '#',
@@ -47,7 +47,7 @@ const cards = [
   },
   {
     title: 'Multi-Post Stories',
-    image: 'images 1/Snapshoot Portfolio (4).png',
+    image: 'images 1/cardImg4.png',
     longDes:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     live: '#',
