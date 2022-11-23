@@ -2,7 +2,7 @@
 
 # Project_Portfolio
 
-> Mobile menu
+> Details Menu
 
 ## Deployment
 - ![screenshot](images1/desktop.png)
