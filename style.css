@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 /* ||VARIABLES */
@@ -271,14 +271,9 @@ img {
   margin-top: 100px;
 }
 
-#text_modal {
-  margin-top: 12px;
-}
-
 .btn {
   border: 1px solid #6070ff;
   border-radius: 8px;
-  height: 48px;
   outline: none;
   background-color: white;
   color: #396df2;
@@ -298,13 +293,6 @@ img {
 .btn:hover .svg {
   fill: #fff !important;
   transition: all 0.5s ease-out;
-}
-
-.modalBtn {
-  display: flex;
-  align-items: center;
-  height: 24px !important;
-  gap: 5px;
 }
 
 .im {
@@ -871,14 +859,28 @@ button {
   overflow: auto;
 }
 
-.modal_content {
-  display: flex;
+/* .modal_content {
   flex-direction: column;
+}   */
+
+.modal_content {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+  justify-content: space-between;
 }
 
 .modal_btn_wrapper {
   width: 24px;
   margin-top: 12px;
+}
+
+.modalBtn {
+  display: flex;
+  align-items: center;
+  height: 24px !important;
+  gap: 5px;
+  justify-content: center;
 }
 
 .modal_close_btn {
@@ -896,12 +898,12 @@ button {
   margin: 0 auto;
 }
 
-.modal_description p {
+ .modal_description p {
   padding: 0;
   font-size: 15px;
   color: #344563;
   line-height: normal;
-}
+} 
 
 .modal_btns {
   align-items: center;
@@ -934,13 +936,6 @@ button {
   margin-bottom: 0;
 }
 
-.modal_description p {
-  padding: 0;
-  font-size: 15px;
-  color: #344563;
-  line-height: normal;
-}
-
 #dot-0 {
   width: 8px;
   height: 8px;
@@ -957,9 +952,10 @@ button {
   display: none;
 }
 
-/* .text_modal {
-  display: ;
-} */
+p.see_button{
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
@@ -1348,6 +1344,13 @@ button {
   transition: all 1s ease 0.5s;
 }
 
+.modal_content {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+  justify-content: space-between;
+}
+
 .left_logo {
   animation: rotatelogo 0.5s ease-in-out 1s forwards;
   font-size: larger;
@@ -1356,18 +1359,6 @@ button {
 .modal_btns {
   margin: 50px 0;
   gap: 5px;
-}
-
-.modal_content {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  justify-content: space-between;
-}
-
-.modal_description {
-  width: 50%;
-  margin-bottom: 50px;
 }
 
 @keyframes rotatelogo {
