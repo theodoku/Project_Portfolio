@@ -33,10 +33,10 @@
 }
 
 /* || GENERAL STYLE */
-
+/* 
 html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   font-family: var(--FF);
@@ -52,6 +52,7 @@ a {
 
 img {
   width: 100%;
+  padding-top: 2%;
 }
 
 /* || HEADER */
@@ -871,8 +872,10 @@ button {
   top: 0;
   left: 0;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color:rgb(196, 203, 215 0.5);
+  /* background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.5); */
+  backdrop-filter: blur(10px);
 }
 
 .modal_wrapper {
@@ -883,11 +886,13 @@ button {
 
 .modal_container {
   background-color: #fff;
-  width: 87%;
+  width: 90%;
   margin: 10px auto;
   padding: 0 16px;
   border-radius: 16px;
   overflow: auto;
+  padding-top: 2%;
+  padding-bottom: 4%;
 }
 
 .modal_content {
@@ -919,7 +924,7 @@ button {
 }
 
 .modal_close_btn img {
-  width: 24px;
+  width: 9px;
 }
 
 .modal-imag {
