@@ -283,6 +283,7 @@ img {
   line-height: 24px;
   cursor: pointer;
   padding: 12px;
+  margin-left:4px;
 }
 
 .btn:hover {
@@ -658,7 +659,7 @@ a#resume:active {
   height: 72px;
   align-items: center;
   margin-bottom: 12px;
-  margin-left:0px;
+  margin-left: 0;
 }
 
 /* .Text {
@@ -899,9 +900,9 @@ button {
   margin-top: 12px;
 }
 
-.btn {
+/* .btn {
   margin-left: 4px;
-}
+} */
 
 .modalBtn {
   display: flex;
