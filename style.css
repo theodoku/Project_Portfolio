@@ -719,7 +719,7 @@ form {
 }
 
 #text_footer {
-  width:327px;
+  width: 327px;
   height: 102px;
   font-weight: 400;
   font-size: 20px;
@@ -728,7 +728,7 @@ form {
   color: #ebebff;
   margin-bottom: 28px;
   padding-left: 24px;
-  margin-left:5px;
+  margin-left: 5px;
 }
 
 input {
@@ -1245,7 +1245,7 @@ p.see_button {
   }
 
   #text_footer {
-    width:569px;
+    width: 569px;
     height: 102px;
     margin-left: 350px;
     text-align: center;
