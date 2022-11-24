@@ -2,7 +2,7 @@
 
 # Project_Portfolio
 
-> Details Menu
+> Contact Validation
 
 ## Deployment
 - ![screenshot](images1/desktop.png)
