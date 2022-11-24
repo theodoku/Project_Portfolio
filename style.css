@@ -54,8 +54,11 @@ img {
 /* || HEADER */
 .header {
   /* position: absolute; */
+
   /* width: 390px; */
+
   /* top: 0; */
+
   /* left: 0; */
   background-color: #fff;
 }
@@ -741,6 +744,7 @@ input {
   border-radius: 8px;
   width: 300px;
   height: 40px;
+
   /* margin-left: 40px; */
   margin-top: 30px;
 }
@@ -751,6 +755,7 @@ textarea {
   border-radius: 8px;
   width: 300px;
   height: 150px;
+
   /* margin-left: 40px; */
   margin-top: 30px;
 }
@@ -778,6 +783,7 @@ button {
   height: 50px;
   color: #396df2;
   border-radius: 8px;
+
   /* margin-left: 40px; */
   margin-top: 10px;
 }
@@ -1203,14 +1209,19 @@ p.see_button {
 
   .contact {
     /* width: 801px; */
+
     /* height: 56px; */
+
     /* margin-left: 42%; */
   }
 
   #text_footer {
     /* width: 569px; */
+
     /* height: 102px; */
+
     /* margin-left: 30%; */
+
     /* margin-top: 2%; */
   }
 
@@ -1268,6 +1279,7 @@ p.see_button {
     border-radius: 2px;
     width: 447px;
     height: 48px;
+
     /* margin-left: 110%; */
     margin-top: 25px;
   }
@@ -1283,6 +1295,7 @@ p.see_button {
     border-radius: 2px;
     width: 447px;
     height: 170px;
+
     /* margin-left: 110%; */
     margin-top: 30px;
   }
