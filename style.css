@@ -205,10 +205,6 @@ img {
   display: grid;
 }
 
-.Card_Works {
-  /* margin-left: 15px; */
-}
-
 .container1 {
   display: flex;
   flex-direction: column;
@@ -722,20 +718,17 @@ form {
   flex-direction: column;
 }
 
-.listInput {
-  /* width: 300px; */
-}
-
 #text_footer {
-  font-family: var(--FF);
-  font-style: normal;
+  width:327px;
+  height: 102px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-bottom: 20px;
-  padding-left: 10px;
+  margin-bottom: 28px;
+  padding-left: 24px;
+  margin-left:5px;
 }
 
 input {
@@ -1203,28 +1196,6 @@ p.see_button {
     align-self: center;
   }
 
-  .footer_contact {
-    /* margin-top: 1%; */
-  }
-
-  .contact {
-    /* width: 801px; */
-
-    /* height: 56px; */
-
-    /* margin-left: 42%; */
-  }
-
-  #text_footer {
-    /* width: 569px; */
-
-    /* height: 102px; */
-
-    /* margin-left: 30%; */
-
-    /* margin-top: 2%; */
-  }
-
   #intro_message {
     margin-left: 25px;
     width: 447px;
@@ -1271,6 +1242,13 @@ p.see_button {
   .imag_css {
     width: 45px;
     height: 45px;
+  }
+
+  #text_footer {
+    width:569px;
+    height: 102px;
+    margin-left: 350px;
+    text-align: center;
   }
 
   input {
