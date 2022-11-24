@@ -705,9 +705,9 @@ a#resume:active {
   margin-bottom: 12px;
 }
 
- form {
+form {
   display: flex;
-} 
+}
 
 .list {
   list-style: none;
