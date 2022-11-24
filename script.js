@@ -7,6 +7,9 @@ const image = document.getElementById('modal-im');
 const longDes = document.getElementById('des');
 const live = document.getElementById('live');
 const source = document.getElementById('source');
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const error = document.getElementById('error');
 
 const cards = [
   {
@@ -69,6 +72,17 @@ function closeMobileMenu() {
 
 openMobileMenu();
 closeMobileMenu();
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (email.value !== email.value.toLowerCase()) {
+    error.textContent = 'Please the content of the email field has to be in lower case.';
+  } else {
+    error.textContent = '';
+    form.submit();
+  }
+});
 
 // eslint-disable-next-line no-return-assign
 cards.map((card, index) => pcard.innerHTML += `<div class="container1"><div class="Card_rev">

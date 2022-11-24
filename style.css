@@ -53,10 +53,14 @@ img {
 
 /* || HEADER */
 .header {
-  position: absolute;
-  width: 390px;
-  top: 0;
-  left: 0;
+  /* position: absolute; */
+
+  /* width: 390px; */
+
+  /* top: 0; */
+
+  /* left: 0; */
+  background-color: #fff;
 }
 
 .header_wrapper {
@@ -199,10 +203,6 @@ img {
 
 .works_section {
   display: grid;
-}
-
-.Card_Works {
-  margin-left: 15px;
 }
 
 .container1 {
@@ -707,22 +707,28 @@ a#resume:active {
 
 form {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 #text_footer {
-  font-family: var(--FF);
-  font-style: normal;
+  width: 327px;
+  height: 102px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-bottom: 20px;
-  padding-left: 10px;
+  margin-bottom: 28px;
+  padding-left: 24px;
+  margin-left: 5px;
 }
 
 input {
@@ -731,7 +737,8 @@ input {
   border-radius: 8px;
   width: 300px;
   height: 40px;
-  margin-left: 40px;
+
+  /* margin-left: 40px; */
   margin-top: 30px;
 }
 
@@ -741,7 +748,8 @@ textarea {
   border-radius: 8px;
   width: 300px;
   height: 150px;
-  margin-left: 40px;
+
+  /* margin-left: 40px; */
   margin-top: 30px;
 }
 
@@ -768,7 +776,8 @@ button {
   height: 50px;
   color: #396df2;
   border-radius: 8px;
-  margin-left: 40px;
+
+  /* margin-left: 40px; */
   margin-top: 10px;
 }
 
@@ -934,6 +943,13 @@ p.see_button {
   margin-bottom: 50%;
 }
 
+#error {
+  color: red;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
@@ -1020,12 +1036,13 @@ p.see_button {
   }
 
   .works_section {
-    margin-left: 120px;
+    margin-top: 120px;
   }
 
   .container1 {
     display: flex;
     width: 90%;
+    margin: 60px auto;
   }
 
   .project-imag1,
@@ -1179,23 +1196,6 @@ p.see_button {
     align-self: center;
   }
 
-  .footer_contact {
-    margin-top: 1%;
-  }
-
-  .contact {
-    width: 801px;
-    height: 56px;
-    margin-left: 42%;
-  }
-
-  #text_footer {
-    width: 569px;
-    height: 102px;
-    margin-left: 30%;
-    margin-top: 2%;
-  }
-
   #intro_message {
     margin-left: 25px;
     width: 447px;
@@ -1244,13 +1244,21 @@ p.see_button {
     height: 45px;
   }
 
+  #text_footer {
+    width: 569px;
+    height: 102px;
+    margin-left: 350px;
+    text-align: center;
+  }
+
   input {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
     width: 447px;
     height: 48px;
-    margin-left: 110%;
+
+    /* margin-left: 110%; */
     margin-top: 25px;
   }
 
@@ -1265,7 +1273,8 @@ p.see_button {
     border-radius: 2px;
     width: 447px;
     height: 170px;
-    margin-left: 110%;
+
+    /* margin-left: 110%; */
     margin-top: 30px;
   }
 
@@ -1274,8 +1283,8 @@ p.see_button {
     transform: translateX(10%);
   }
 
-  .contact-btn {
-    margin-left: 143%;
+  .button {
+    align-self: center;
   }
 }
 
