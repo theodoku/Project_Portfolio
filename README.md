@@ -194,7 +194,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Data storage to this project] **[new_feature_1]**
+- [ ] **[Data Storage]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
