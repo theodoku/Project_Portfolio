@@ -80,6 +80,7 @@ form.addEventListener('submit', (e) => {
     error.textContent = 'Please the content of the email field has to be in lower case.';
   } else {
     error.textContent = '';
+    form.submit();
   }
 });
 
