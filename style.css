@@ -934,6 +934,10 @@ p.see_button {
   margin-bottom: 50%;
 }
 
+#error {
+  color:red;
+}
+
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
