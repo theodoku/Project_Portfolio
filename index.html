@@ -347,7 +347,7 @@
             love to help with it.
           </p>
         </div>
-        <form action="https://formspree.io/f/meqdvkdq" method="Post">
+        <form action="https://formspree.io/f/meqdvkdq" id="form" method="Post">
           <ul class="list">
             <li>
               <label>
@@ -361,7 +361,13 @@
             </li>
             <li>
               <label>
-              <input type="email" id="email" name="Email" placeholder="Email" required />
+                <input
+                  type="email"
+                  id="email"
+                  name="Email"
+                  placeholder="Email"
+                  required
+                />
               </label>
             </li>
             <li>
@@ -372,9 +378,7 @@
                 required
               ></textarea>
             </li>
-            <div id="error">
-
-            </div>
+            <div id="error"></div>
             <li class="button">
               <button type="submit" class="contact-btn">Get in touch</button>
             </li>
