@@ -1,5 +1,27 @@
 <a name="readme-top"></a>
 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
+
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -35,10 +57,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Project Portfolio] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-**[Portfolio Project]** is a project to display portfolio of various projects done.
-on mobile and desktop.
+> Describe your project in 1 or 2 sentences.
+
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,9 +96,9 @@ on mobile and desktop.
 
 > Describe between 1-3 key features of the application.
 
-- **[Modal Popup Details]**
-- **[Contact form validation]**
-- **[Mobile & Desktop Versions]**
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,13 +106,17 @@ on mobile and desktop.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://theodoku.github.io/Project_Portfolio/)
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -176,17 +203,16 @@ Example:
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
-- Theo
 
-- GitHub: [@githubhandle](https://github.com/theodoku)
-- Twitter: [@twitterhandle](https://twitter.com/dok_theo)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/theophilusdoku)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
-- Sabi
-- GitHub: [@githubhandle](https://github.com/SabiMantock)
-- Twitter: [@twitterhandle](https://twitter.com/sabi_mantock)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/sabimantock)
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +220,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Data Storage]**
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
@@ -214,7 +242,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please you can follow me on any of my social media handles.
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,7 +252,9 @@ If you like this project please you can follow me on any of my social media hand
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Sabi Mantock for his tremendous effort on this project
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
