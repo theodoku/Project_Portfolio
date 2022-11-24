@@ -53,10 +53,11 @@ img {
 
 /* || HEADER */
 .header {
-  position: absolute;
-  width: 390px;
-  top: 0;
-  left: 0;
+  /* position: absolute; */
+  /* width: 390px; */
+  /* top: 0; */
+  /* left: 0; */
+  background-color: #fff;
 }
 
 .header_wrapper {
@@ -202,7 +203,7 @@ img {
 }
 
 .Card_Works {
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 .container1 {
@@ -707,10 +708,19 @@ a#resume:active {
 
 form {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.listInput {
+  /* width: 300px; */
 }
 
 #text_footer {
@@ -731,7 +741,7 @@ input {
   border-radius: 8px;
   width: 300px;
   height: 40px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   margin-top: 30px;
 }
 
@@ -741,7 +751,7 @@ textarea {
   border-radius: 8px;
   width: 300px;
   height: 150px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   margin-top: 30px;
 }
 
@@ -768,7 +778,7 @@ button {
   height: 50px;
   color: #396df2;
   border-radius: 8px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   margin-top: 10px;
 }
 
@@ -936,6 +946,9 @@ p.see_button {
 
 #error {
   color: red;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* ----MEDIA QUERIES SECTION---- */
@@ -1024,12 +1037,13 @@ p.see_button {
   }
 
   .works_section {
-    margin-left: 120px;
+    margin-top: 120px;
   }
 
   .container1 {
     display: flex;
     width: 90%;
+    margin: 60px auto;
   }
 
   .project-imag1,
@@ -1184,20 +1198,20 @@ p.see_button {
   }
 
   .footer_contact {
-    margin-top: 1%;
+    /* margin-top: 1%; */
   }
 
   .contact {
-    width: 801px;
-    height: 56px;
-    margin-left: 42%;
+    /* width: 801px; */
+    /* height: 56px; */
+    /* margin-left: 42%; */
   }
 
   #text_footer {
-    width: 569px;
-    height: 102px;
-    margin-left: 30%;
-    margin-top: 2%;
+    /* width: 569px; */
+    /* height: 102px; */
+    /* margin-left: 30%; */
+    /* margin-top: 2%; */
   }
 
   #intro_message {
@@ -1254,7 +1268,7 @@ p.see_button {
     border-radius: 2px;
     width: 447px;
     height: 48px;
-    margin-left: 110%;
+    /* margin-left: 110%; */
     margin-top: 25px;
   }
 
@@ -1269,7 +1283,7 @@ p.see_button {
     border-radius: 2px;
     width: 447px;
     height: 170px;
-    margin-left: 110%;
+    /* margin-left: 110%; */
     margin-top: 30px;
   }
 
@@ -1278,8 +1292,8 @@ p.see_button {
     transform: translateX(10%);
   }
 
-  .contact-btn {
-    margin-left: 143%;
+  .button {
+    align-self: center;
   }
 }
 
