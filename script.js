@@ -85,16 +85,19 @@ function getFormData() {
 }
 
 function persistData() {
-  const fetchData = localStorage.getItem('formData');
-  if (!fetchData) {
+  if (!localStorage.getItem('formData')) {
     getFormData();
   } else {
-    JSON.parse(fetchData);
+    const fetchData = JSON.parse(localStorage.getItem('formData'));
     fname.setAttribute('value', fetchData.fname);
     email.setAttribute('value', fetchData.email);
     message.textContent = fetchData.message;
   }
 }
+
+window.onload = () => {
+  persistData();
+};
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
